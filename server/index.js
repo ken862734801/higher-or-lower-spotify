@@ -16,8 +16,18 @@ db.on("error", (error) => {
     console.log(error)
 });
 
+db.once("open", async () => {
+    try{
+        await Song.deleteMany({});
+        await Song.create(data);
+        console.log("all done!")
+    } catch (err){
+        throw err;
+    }
+});
+
 db.once("connected", () => {
-    console.log("Database is connected!")
+    console.log("database is connected!")
 });
 
 const app = express();
@@ -28,5 +38,5 @@ app.use(cors());
 app.use("/spotify-global-200", routes);
 
 app.listen(3000, () => {
-    console.log(`Server started at ${3000}`)
+    console.log(`server started at ${3000}`)
 });
