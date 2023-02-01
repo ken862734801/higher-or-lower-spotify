@@ -28,9 +28,27 @@ function Game(){
             }
             return {firstIndex, secondIndex}
       };
+    function hideStartScreen(){
+
+    }
 
     return (
         <main>
+            <section className="start-container">
+                <div className="title-container">
+                    <h1 className="citric">Welcome to</h1>
+                    <h1 className="spearmint">Higher or Lower</h1>
+                    <h1 className="fuschia">Music Edition</h1>
+                    <div className="subtitle-container">
+                        <h2>Can you guess the more popular song?</h2>
+                        <p>A frustratingly addictive game of higher or lower using the top 200 songs from Spotify's global chart.</p>
+                        <p>The data was last updated in January 2023.</p>
+                    </div>
+                </div>
+                <div className="button-container">
+                    <button onClick={getData}>Play</button>
+                </div>
+            </section>
             <div className="game-container">
                 <div className="game-card">
                     <img src={image_1}></img>
@@ -39,7 +57,7 @@ function Game(){
                     <img src={image_2}></img>
                 </div>
             </div>
-            <button onClick={getData}></button>
+            <div className="end-container"></div>
         </main>
     )
 };
