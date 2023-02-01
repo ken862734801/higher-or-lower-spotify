@@ -1,6 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
+import { HashRouter, Route, Routes, Link } from "react-router-dom";
+import Home from './components/home';
+import Game from './components/game';
+import Leaderboard from './components/leaderboard';
+
 
 function getData(){
   fetch("http://localhost:3000/spotify-global-200")
@@ -28,7 +33,15 @@ getData()
 function App() {
 
   return (
-    <div className="App"></div>
+    <div className="App">
+      <HashRouter>
+        <Routes>
+          <Route path="/" element={<Home/>}></Route>
+          <Route path="/game" element={<Game/>}></Route>
+          <Route path="/leaderboard" element={<Leaderboard/>}></Route>
+        </Routes>
+      </HashRouter>
+    </div>
   );
 }
 
