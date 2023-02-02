@@ -1,9 +1,11 @@
 import "./game.css";
-import React, {useEffect, useState} from 'react';
+import React, {useRef, useEffect, useState} from 'react';
 
 
 function Game(){
-    let score = 0;
+
+    const higher = useRef(false)
+    const answer = useRef(false)
 
     const [image_1, setImage_1] = useState("");
     const [image_2, setImage_2] = useState("");
@@ -21,21 +23,26 @@ function Game(){
             displayGameScreen()
             let song_1 = data[getRandomIndex().firstIndex]
             let song_2 = data[getRandomIndex().secondIndex]
-            setImage_1(song_1.displayImageUri);
-            setTitle_1(song_1.trackName);
-            setArtist_1(song_1.name)
-            setImage_2(song_2.displayImageUri);
-            setTitle_2(song_2.trackName);
-            setArtist_2(song_2.name);
-            let streamCount_1 = Number(song_1.value).toLocaleString();
-            let streamCount_2 = Number(song_2.value).toLocaleString();
-            console.log(streamCount_1);
-            console.log(streamCount_2)
-            setValue_1(streamCount_1);
+            displayInitialGameState(song_1, song_2)
+            compareStreams(song_1, song_2);
+            console.log(song_1.value);
+            console.log(song_2.value);
           })
           .catch(err => {
             console.log(err)
           })
+      };
+
+      function displayInitialGameState(song1, song2){
+        setImage_1(song1.displayImageUri);
+        setTitle_1(song1.trackName);
+        setArtist_1(song1.name);
+        setValue_1(song1.value.toLocaleString());
+
+        setImage_2(song2.displayImageUri)
+        setTitle_2(song2.trackName)
+        setArtist_2(song2.name)
+
       };
       
       function getRandomIndex(){
@@ -54,11 +61,41 @@ function Game(){
         gameScreen.classList.remove("hide");
       };
 
-      function displayEndScreen(){
-        let gameScreen = document.getElementById("game-container");
-        let endScreen = document.getElementById("end-container");
-        gameScreen.classList.add("hide");
-        endScreen.classList.remove("hide");
+    //   function displayEndScreen(){
+    //     let gameScreen = document.getElementById("game-container");
+    //     let endScreen = document.getElementById("end-container");
+    //     gameScreen.classList.add("hide");
+    //     endScreen.classList.remove("hide");
+    //   };
+
+      function getUserAnswer(e){
+        if(e.target.id === "higher-btn"){
+            answer.current = true;
+            console.log("User thinks it is higher!");
+            checkIfCorrect()
+        }else if(e.target.id === "lower-btn"){
+            answer.current = false;
+            console.log("User thinks it is lower!");
+            checkIfCorrect()
+        }
+      };
+
+      function compareStreams(song1, song2){
+        if(song1.value > song2.value){
+            higher.current = false;
+            console.log("It is not higher!")
+        }else if(song1.value < song2.value){
+            higher.current = true;
+            console.log("It is higher!");
+        }
+      };
+
+      function checkIfCorrect(){
+        if(higher.current === answer.current){
+            console.log("Correct!");
+        }else if(higher.current !== answer.current){
+            console.log("Incorrect!");
+        }
       };
 
     return (
@@ -104,8 +141,8 @@ function Game(){
                         <p>Has</p>
                    </div>
                     <div className="card-button-container">
-                        <button>Higher</button>
-                        <button>Lower</button>
+                        <button onClick={getUserAnswer} id="higher-btn">Higher</button>
+                        <button onClick={getUserAnswer} id="lower-btn">Lower</button>
                     </div>
                     <p className="streams">Streams</p>
                 </div>
