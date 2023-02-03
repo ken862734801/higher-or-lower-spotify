@@ -23,6 +23,7 @@ function Game (){
     const [data, setData] = useState([]);
     const [currentSong, setCurrentSong] = useState({});
     const [nextSong, setNextSong] = useState({});
+    const [displayNextSong, setDisplayNextSong] = useState(false);
     const [gameOver, setGameOver] = useState(false);
     const [score, setScore] = useState(0)
 
@@ -53,25 +54,49 @@ function Game (){
         setScore(0);
       };
 
+    
+
     const handleHigher = () => {
         if(nextSong.value > currentSong.value){
-            setCurrentSong(nextSong);
-            const index = getRandomIndex(data);
-            setNextSong(data[index.secondIndex]);
-            setScore(score + 1)
-        }else{
-            setGameOver(true)
+            setTimeout(() => {
+                setCurrentSong(nextSong);
+                const index = getRandomIndex(data);
+                setNextSong(data[index.secondIndex]);
+                setScore(score + 1);
+                }, 2000);
+        } else if(nextSong.value === currentSong.value){
+            setTimeout(() => {
+                setCurrentSong(nextSong);
+                const index = getRandomIndex(data);
+                setNextSong(data[index.secondIndex]);
+                setScore(score + 1);
+                }, 2000);
+        }else {
+            setTimeout(() => {
+                setGameOver(true)
+            }, 2000);
         }
     };
 
     const handleLower = () => {
         if(nextSong.value < currentSong.value){
-            setCurrentSong(nextSong);
-            const index = getRandomIndex(data);
-            setNextSong(data[index.secondIndex]);
-            setScore(score + 1)
-        } else {
-            setGameOver(true)
+            setTimeout(() => {
+                setCurrentSong(nextSong);
+                const index = getRandomIndex(data);
+                setNextSong(data[index.secondIndex]);
+                setScore(score + 1);
+                }, 2000);
+        } else if(nextSong.value === currentSong.value){
+            setTimeout(() => {
+                setCurrentSong(nextSong);
+                const index = getRandomIndex(data);
+                setNextSong(data[index.secondIndex]);
+                setScore(score + 1);
+                }, 2000);
+        }else {
+            setTimeout(() => {
+                setGameOver(true)
+            }, 2000);
         }
     }
 
@@ -98,7 +123,7 @@ function Game (){
                 <section className="game-container" id="game-container">
                 <div className="game-card">
                    <div className="card-image-container">
-                        <img className="card-image" src={currentSong.displayImageUri}></img>
+                        <img className="card-image" id="card-image" src={currentSong.displayImageUri}></img>
                    </div>
                    <div className="card-info-container">
                         <div className="p-container">
@@ -108,12 +133,12 @@ function Game (){
                         </div>
                         <h3 className="card-streams">{currentSong.value.toLocaleString()}</h3>
                    </div>
-                   <p>streams</p>
+                   <p className="p-streams">streams</p>
                 </div>
                 <div className="vs-container">
                     <div className="circle">VS</div>
                 </div>
-                <div className="game-card">
+                <div className="game-card" id="game-card-one">
                     <div className="card-image-container">
                         <img className="card-image" src={nextSong.displayImageUri}></img>
                    </div>
@@ -123,19 +148,21 @@ function Game (){
                             <p className="card-artist">{nextSong.name}</p>
                             <p>Has</p>
                         </div>
+                        <h3 className="hide card-streams">{}</h3>
                    </div>
                     <div className="card-button-container">
                         <button onClick={handleHigher}>Higher</button>
                         <button onClick={handleLower}>Lower</button>
                     </div>
-                    <p>streams</p>
+                    <p className="p-streams">streams</p>
                 </div>
            </section>
             )}
             {!showStartScreen && gameOver && (
-                <section>
+                <section className="end-container">
                     <h1 className="citric">Game Over</h1>
-                    <h2>Your final score was: <span>{score}</span></h2>
+                    <h2>Your final score was:</h2>
+                    <h2><span className="number">{score}</span></h2>
                     <div className="button-container">
                         <button onClick={resetGame}>Play Again</button>
                     </div>
