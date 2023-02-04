@@ -1,0 +1,25 @@
+{
+  "name": "higher-lower-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "object-assign": "^4.1.1",
+    "vary": "^1.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ken862734801/higher-lower-game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ken862734801/higher-lower-game/issues"
+  },
+  "homepage": "https://github.com/ken862734801/higher-lower-game#readme"
+}
