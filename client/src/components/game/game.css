@@ -6,9 +6,6 @@
     --fuchsia: #f037a5;
     --spearmint: #4b917d;
 }
-.hide{
-    display:none !important;
-}
 .citric{
     color:var(--citric);
 }
@@ -42,6 +39,25 @@ main{
     display:flex;
     flex-direction: column;
     justify-content: center;
+    position:relative;
+}
+header{
+    width:100%;
+    height:40px;
+    background-color: black;
+    position:absolute;
+    top:0;
+    bottom:0;
+}
+.header-container{
+    display:flex;
+    justify-content: space-between;
+    width:80%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:10px 0px;
+    font-size:1.1em;
+    text-transform: uppercase;
 }
 .start-container{
     font-family: 'Figtree', sans-serif;

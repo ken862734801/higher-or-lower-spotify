@@ -1,11 +1,12 @@
 import "./header.css";
 
-function Header(){
+
+function Header(props){
     return (
         <header>
             <div className="header-container">
-                <p className="citric">High Score: {0}</p>
-                <p className="citric">Score: {0}</p>
+                <p className="citric">High Score: {}</p>
+                <p className="citric">Score: {props.score}</p>
             </div>
         </header>
     )

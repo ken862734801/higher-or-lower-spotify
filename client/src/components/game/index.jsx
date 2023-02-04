@@ -25,7 +25,8 @@ function Game (){
     const [nextSong, setNextSong] = useState({});
     const [displayNextSong, setDisplayNextSong] = useState(false);
     const [gameOver, setGameOver] = useState(false);
-    const [score, setScore] = useState(0)
+    const [score, setScore] = useState(0);
+    const [highScore, setHighScore] = useState(0);
 
     useEffect(() => {
         const fetchData = async() => {
@@ -42,7 +43,23 @@ function Game (){
             setNextSong(data[index.secondIndex]);
         }
     },
-    [data])
+    [data]);
+
+    useEffect(()=> {
+        let highScore = localStorage.getItem("highScore");
+        if(!highScore){
+            localStorage.setItem("highScore", 0);
+            highScore = 0;
+        };
+        setHighScore(highScore);
+    }, []);
+
+    useEffect(() => {
+        if (score > highScore){
+            localStorage.setItem("highScore", score);
+            setHighScore(score);
+        }
+    }, [score]);
 
     const startGame = () => {
         setShowStartScreen(false)
@@ -114,6 +131,12 @@ function Game (){
 
     return (
         <main>
+            <header>
+                <div className="header-container">
+                    <p className="citric">High Score: {highScore}</p>
+                    <p className="citric">Score: {score}</p>
+                </div>
+            </header>
             {showStartScreen && ! gameOver && (
             <section className="start-container" id="start-container">
                 <div className="title-container">
