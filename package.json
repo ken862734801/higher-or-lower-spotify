@@ -10,10 +10,11 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "cd server && npm start",
-    "build": "cd client && npm run build",
-    "react-dev": "cd client && npm start",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run start:prod",
+    "start:prod": "cd server && npm start",
+    "build": "npm run build:prod",
+    "build:prod": "cd client && npm run build",
+    "react-dev": "cd client && npm start"
   },
   "repository": {
     "type": "git",
