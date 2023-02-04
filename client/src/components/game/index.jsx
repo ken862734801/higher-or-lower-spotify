@@ -54,49 +54,61 @@ function Game (){
         setScore(0);
       };
 
+    const displaySongValue = () => {
+        setDisplayNextSong(true);
+        setTimeout(() => {
+            setDisplayNextSong(false)
+        }, 1500)
+    };
     
 
     const handleHigher = () => {
         if(nextSong.value > currentSong.value){
+            displaySongValue();
             setTimeout(() => {
                 setCurrentSong(nextSong);
                 const index = getRandomIndex(data);
                 setNextSong(data[index.secondIndex]);
                 setScore(score + 1);
-                }, 2000);
+                }, 1500);
         } else if(nextSong.value === currentSong.value){
+            displaySongValue();
             setTimeout(() => {
                 setCurrentSong(nextSong);
                 const index = getRandomIndex(data);
                 setNextSong(data[index.secondIndex]);
                 setScore(score + 1);
-                }, 2000);
+                }, 1500);
         }else {
+            displaySongValue();
             setTimeout(() => {
                 setGameOver(true)
-            }, 2000);
+            }, 1500);
         }
     };
 
     const handleLower = () => {
         if(nextSong.value < currentSong.value){
+            displaySongValue();
             setTimeout(() => {
                 setCurrentSong(nextSong);
                 const index = getRandomIndex(data);
                 setNextSong(data[index.secondIndex]);
                 setScore(score + 1);
-                }, 2000);
+                }, 1500);
         } else if(nextSong.value === currentSong.value){
+            displaySongValue();
             setTimeout(() => {
                 setCurrentSong(nextSong);
                 const index = getRandomIndex(data);
                 setNextSong(data[index.secondIndex]);
                 setScore(score + 1);
-                }, 2000);
+                }, 1500);
         }else {
+            displaySongValue();
             setTimeout(() => {
                 setGameOver(true)
-            }, 2000);
+            }, 1500);
         }
     }
 
@@ -148,12 +160,14 @@ function Game (){
                             <p className="card-artist">{nextSong.name}</p>
                             <p>Has</p>
                         </div>
-                        <h3 className="hide card-streams">{}</h3>
+                    {displayNextSong && (
+                        <h3 className="card-streams">{nextSong.value.toLocaleString()}</h3>
+                        )}
                    </div>
-                    <div className="card-button-container">
+                    {!displayNextSong && (<div className="card-button-container">
                         <button onClick={handleHigher}>Higher</button>
                         <button onClick={handleLower}>Lower</button>
-                    </div>
+                    </div>)}
                     <p className="p-streams">streams</p>
                 </div>
            </section>

@@ -63,15 +63,6 @@ main{
     flex-wrap: wrap;
     padding:20px;
 }
-.header{
-    position:fixed;
-    top:1px;
-    width:100%;
-    border:1px solid red;
-}
-.header-container{
-    color:var(--citric);
-}
 .game-card{
     width:400px;
     margin:0px 20px;
