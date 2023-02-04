@@ -37,6 +37,6 @@ app.use(cors());
 
 app.use("/spotify-global-200", routes);
 
-app.listen(3000, () => {
-    console.log(`server started at ${3000}`)
+app.listen(8080, () => {
+    console.log(`server started at ${8080}`)
 });
