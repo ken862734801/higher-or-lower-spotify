@@ -44,4 +44,10 @@ As of right now this is being deployed under a paid tier so there should be no i
 
 This application was built using MongoDB, Express, React, and Node. Python was also used for functionality related to filtering the original data obtained from the Spotify API into a more concise format. The newly filter array of objects is then returned as a JSON file, which was used to seed the MongoDB database. 
 
+https://developer.spotify.com/documentation/web-api/
+
+## Future Development
+
+- Implement different game modes depending on genres and regions.
+- Implement a counter animation upon the reveal of song streams.
 
