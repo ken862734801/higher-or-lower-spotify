@@ -17,6 +17,7 @@ def save_to_json(data, filename):
     with open(filename, "w") as outfile:
         json.dump(data, outfile)
 
+# chartData = array of objects from the original spotify api;
 
 # result = json_filter(chartData)
 # save_to_json(result, "chart_data.json")
