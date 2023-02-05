@@ -31,17 +31,19 @@ db.once("open", async () => {
 db.once("connected", () => {
     console.log("database is connected!")
 });
-if(process.env.NODE_ENV === "production"){
-    app.use(express.static("client/build"));
 
-    app.get("*", (req, res) => res.sendFile(path.resolve(__dirname, "client", "build", "index.html")));
-}
 const app = express();
 
 app.use(express.json());
 app.use(cors());
 
 app.use("/spotify-global-200", routes);
+
+if(process.env.NODE_ENV === "production"){
+    app.use(express.static("client/build"));
+
+    app.get("*", (req, res) => res.sendFile(path.resolve(__dirname, "client", "build", "index.html")));
+}
 
 app.listen(port, () => {
     console.log(`server started at ${port}`)
