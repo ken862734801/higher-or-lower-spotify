@@ -8,9 +8,11 @@
     "object-assign": "^4.1.1",
     "vary": "^1.1.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  },
   "scripts": {
-    "start": "cd server && npm start",
+    "start": "concurrently \"cd client && npm start\" \"cd server && npm start\"",
     "react-dev": "cd client && npm start",
     "test": "cd server && npm test",
     "preinstall": "cd server && npm install",
