@@ -51,3 +51,4 @@ https://developer.spotify.com/documentation/web-api/
 - Implement different game modes depending on genres and regions.
 - Implement a counter animation upon the reveal of song streams.
 
+## Resources
