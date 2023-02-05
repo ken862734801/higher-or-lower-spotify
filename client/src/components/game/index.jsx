@@ -78,7 +78,7 @@ function Game (){
         setDisplayNextSong(true);
         setTimeout(() => {
             setDisplayNextSong(false)
-        }, 1700)
+        }, 1500)
     };
 
     const handleChangeColor = (answer) => {
@@ -92,7 +92,7 @@ function Game (){
             }, 700);
             setTimeout(() => {
                 setCircleText("VS");
-            }, 850);
+            }, 700);
         } else {
             setIsWrong(true);
                 setCircleText("✗");
@@ -117,7 +117,7 @@ function Game (){
                 const index = getRandomIndex(data);
                 setNextSong(data[index.secondIndex]);
                 setScore(score + 1);
-                }, 1700);
+                }, 1550);
         } else if(nextSong.value === currentSong.value){
             displaySongValue();
             setTimeout(() => {
@@ -128,7 +128,7 @@ function Game (){
                 const index = getRandomIndex(data);
                 setNextSong(data[index.secondIndex]);
                 setScore(score + 1);
-                }, 1700);
+                }, 1550);
         }else {
             displaySongValue();
             setTimeout(() => {
@@ -151,7 +151,7 @@ function Game (){
                 const index = getRandomIndex(data);
                 setNextSong(data[index.secondIndex]);
                 setScore(score + 1);
-                }, 1700);
+                }, 1550);
         } else if(nextSong.value === currentSong.value){
             displaySongValue();
             setTimeout(() => {
@@ -162,7 +162,7 @@ function Game (){
                 const index = getRandomIndex(data);
                 setNextSong(data[index.secondIndex]);
                 setScore(score + 1);
-                }, 1700);
+                }, 1550);
         }else {
             displaySongValue();
             setTimeout(() => {

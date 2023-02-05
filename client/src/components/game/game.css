@@ -103,11 +103,11 @@ header{
     text-transform: uppercase;
     cursor:pointer;
 }
-/* .button-container > button:hover{
+.button-container > button:hover{
     background-color: white;
     color:#000000;
     transition: 0.3s;
-} */
+}
 .card-image-container{
     border-radius:8px;
 }
@@ -133,6 +133,7 @@ header{
     /* border:1px solid red; */
     margin: auto;
 }
+
 .card-button-container{
     display:flex;
     flex-direction: column;
@@ -154,6 +155,12 @@ header{
     margin:4px 0px;
     cursor:pointer;
     font-size:0.9em;
+}
+.card-button-container > button:hover{
+    background-color: white;
+    border:1px solid white;
+    color:#000000;
+    transition: 0.3s;
 }
 .p-streams{
     margin-top:5px;
