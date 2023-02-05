@@ -69,6 +69,9 @@ function Game (){
     };
 
     const resetGame = () => {
+        const index = getRandomIndex(data);
+        setCurrentSong(data[index.firstIndex]);
+        setNextSong(data[index.secondIndex]);
         setShowStartScreen(true);
         setGameOver(false);
         setScore(0);
