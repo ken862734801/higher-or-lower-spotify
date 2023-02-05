@@ -1,5 +1,5 @@
 # higher-lower-game
-A FRUSTRATINGLY ADDICTIVE GAME OF HIGHER OR LOWER USING THE TOP 200 SONGS FROM SPOTIFY'S GLOBAL CHART.
+A frustratingly addictive game of higher or lower using the top 200 songs from Spotify's global chart.
 
 https://higherlower.onrender.com/
 
