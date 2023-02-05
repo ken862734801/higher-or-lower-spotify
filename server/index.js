@@ -12,6 +12,8 @@ const data = require("./seeds/chart_data.json");
 mongoose.connect(mongoString);
 const db = mongoose.connection;
 
+const port = process.env.PORT || 8080;
+
 db.on("error", (error) => {
     console.log(error)
 });
@@ -37,6 +39,6 @@ app.use(cors());
 
 app.use("/spotify-global-200", routes);
 
-app.listen(8080, () => {
-    console.log(`server started at ${8080}`)
+app.listen(port, () => {
+    console.log(`server started at ${port}`)
 });
