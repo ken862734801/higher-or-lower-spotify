@@ -18,7 +18,7 @@ const getRandomIndex = (data) =>{
 }
 
 function Game (){
-    const apiUrl = "http://localhost:8080/spotify-global-200";
+    const apiUrl = "/api/";
     const [showStartScreen, setShowStartScreen] = useState(true);
     const [data, setData] = useState([]);
     const [currentSong, setCurrentSong] = useState({});
