@@ -213,6 +213,9 @@ header{
         height:60px;
         font-size:1.25em;
     }
+    .subtitle-container > p{
+        display:none;
+    }
 };
 
 @media screen and (max-width: 420px) {
