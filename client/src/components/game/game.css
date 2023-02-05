@@ -220,6 +220,9 @@ header{
         margin-top:30px;
         font-size:2.0em;
     }
+    .subtitle-container{
+        display:none;
+    }
    
     .card-image{
         width:275px;
