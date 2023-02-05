@@ -26,6 +26,7 @@ function Game (){
     const [displayNextSong, setDisplayNextSong] = useState(false);
     const [isCorrect, setIsCorrect] = useState(false);
     const [isWrong, setIsWrong] = useState(false);
+    const [circleText, setCircleText] = useState("VS");
     const [gameOver, setGameOver] = useState(false);
     const [score, setScore] = useState(0);
     const [highScore, setHighScore] = useState(0);
@@ -77,7 +78,7 @@ function Game (){
         setDisplayNextSong(true);
         setTimeout(() => {
             setDisplayNextSong(false)
-        }, 1500)
+        }, 1700)
     };
 
     const handleChangeColor = (answer) => {
@@ -85,14 +86,22 @@ function Game (){
         setIsWrong(false);
         if ((answer === "Higher" && nextSong.value > currentSong.value) || (answer === "Lower" && nextSong.value < currentSong.value)) {
             setIsCorrect(true);
+                setCircleText("\u2713");
             setTimeout(() => {
                 setIsCorrect(false);
-            }, 300);
+            }, 700);
+            setTimeout(() => {
+                setCircleText("VS");
+            }, 850);
         } else {
             setIsWrong(true);
+                setCircleText("✗");
             setTimeout(() => {
                 setIsWrong(false);
-            }, 300);
+            }, 700);
+            setTimeout(() => {
+                setCircleText("VS");
+            }, 800);
         }
     };
     
@@ -108,7 +117,7 @@ function Game (){
                 const index = getRandomIndex(data);
                 setNextSong(data[index.secondIndex]);
                 setScore(score + 1);
-                }, 1500);
+                }, 1700);
         } else if(nextSong.value === currentSong.value){
             displaySongValue();
             setTimeout(() => {
@@ -119,7 +128,7 @@ function Game (){
                 const index = getRandomIndex(data);
                 setNextSong(data[index.secondIndex]);
                 setScore(score + 1);
-                }, 1500);
+                }, 1700);
         }else {
             displaySongValue();
             setTimeout(() => {
@@ -142,7 +151,7 @@ function Game (){
                 const index = getRandomIndex(data);
                 setNextSong(data[index.secondIndex]);
                 setScore(score + 1);
-                }, 1500);
+                }, 1700);
         } else if(nextSong.value === currentSong.value){
             displaySongValue();
             setTimeout(() => {
@@ -153,7 +162,7 @@ function Game (){
                 const index = getRandomIndex(data);
                 setNextSong(data[index.secondIndex]);
                 setScore(score + 1);
-                }, 1500);
+                }, 1700);
         }else {
             displaySongValue();
             setTimeout(() => {
@@ -207,7 +216,7 @@ function Game (){
                    <p className="p-streams">streams</p>
                 </div>
                 <div className="vs-container">
-                    <div className={circleClass}>VS</div>
+                    <div className={circleClass}>{circleText}</div>
                 </div>
                 <div className="game-card" id="game-card-one">
                     <div className="card-image-container">

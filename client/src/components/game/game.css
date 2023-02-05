@@ -186,6 +186,7 @@ header{
     background-color: var(--citric);
     border-color: var(--citric);
     color:black;
+    font-size: 1.75em;
 }
 .number{
     color:var(--fuchsia);
