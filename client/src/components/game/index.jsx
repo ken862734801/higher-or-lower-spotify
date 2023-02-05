@@ -113,6 +113,7 @@ function Game (){
             handleChangeColor("Higher");
             }, 800);
             setTimeout(() => {
+                window.scrollTo(0,0);
                 setCurrentSong(nextSong);
                 const index = getRandomIndex(data);
                 setNextSong(data[index.secondIndex]);
@@ -124,6 +125,7 @@ function Game (){
             handleChangeColor("Higher");
             }, 800);
             setTimeout(() => {
+                window.scrollTo(0,0);
                 setCurrentSong(nextSong);
                 const index = getRandomIndex(data);
                 setNextSong(data[index.secondIndex]);
@@ -132,7 +134,7 @@ function Game (){
         }else {
             displaySongValue();
             setTimeout(() => {
-            handleChangeColor("Higher");
+                handleChangeColor("Higher");
             }, 800);
             setTimeout(() => {
                 setGameOver(true)
@@ -147,6 +149,7 @@ function Game (){
                 handleChangeColor("Lower");
                 }, 800);
             setTimeout(() => {
+                window.scrollTo(0,0);
                 setCurrentSong(nextSong);
                 const index = getRandomIndex(data);
                 setNextSong(data[index.secondIndex]);
@@ -158,6 +161,7 @@ function Game (){
                 handleChangeColor("Lower");
                 }, 800);
             setTimeout(() => {
+                window.scrollTo(0,0);
                 setCurrentSong(nextSong);
                 const index = getRandomIndex(data);
                 setNextSong(data[index.secondIndex]);
