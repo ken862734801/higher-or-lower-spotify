@@ -145,7 +145,7 @@ function Game (){
             }, 2000);
             setTimeout(() => {
                 setGameOver(true)
-            }, 2500);
+            }, 2750);
         }
     };
 
@@ -181,7 +181,7 @@ function Game (){
                 }, 2000);
             setTimeout(() => {
                 setGameOver(true)
-            }, 2500);
+            }, 2750);
         }
     }
     const circleClass = `circle ${isCorrect ? "green" : isWrong ? "red" : ""}`;
