@@ -124,7 +124,7 @@ header{
     /* border:1px solid red; */
 }
 .card-streams{
-    color:var(--citric);
+    color:var(--citric) !important;
     font-size:4em;
     height:100px;
     display:flex;

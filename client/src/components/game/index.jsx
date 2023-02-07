@@ -1,5 +1,7 @@
 import "./game.css";
 import React, { useEffect, useState} from 'react';
+import CountUp from "react-countup";
+
 
 const getData = async (api) =>{
     const response = await fetch(api);
@@ -30,6 +32,7 @@ function Game (){
     const [gameOver, setGameOver] = useState(false);
     const [score, setScore] = useState(0);
     const [highScore, setHighScore] = useState(0);
+
 
     useEffect(() => {
         const fetchData = async() => {
@@ -81,7 +84,7 @@ function Game (){
         setDisplayNextSong(true);
         setTimeout(() => {
             setDisplayNextSong(false)
-        }, 1500)
+        }, 3000)
     };
 
     const handleChangeColor = (answer) => {
@@ -92,19 +95,19 @@ function Game (){
                 setCircleText("\u2713");
             setTimeout(() => {
                 setIsCorrect(false);
-            }, 700);
+            }, 1000);
             setTimeout(() => {
                 setCircleText("VS");
-            }, 700);
+            }, 1000);
         } else {
             setIsWrong(true);
                 setCircleText("✗");
             setTimeout(() => {
                 setIsWrong(false);
-            }, 700);
+            }, 2000);
             setTimeout(() => {
                 setCircleText("VS");
-            }, 800);
+            }, 2000);
         }
     };
     
@@ -114,34 +117,34 @@ function Game (){
             displaySongValue();
             setTimeout(() => {
             handleChangeColor("Higher");
-            }, 800);
+            }, 2000);
             setTimeout(() => {
                 window.scrollTo(0,0);
                 setCurrentSong(nextSong);
                 const index = getRandomIndex(data);
                 setNextSong(data[index.secondIndex]);
                 setScore(score + 1);
-                }, 1550);
+                }, 3000);
         } else if(nextSong.value === currentSong.value){
             displaySongValue();
             setTimeout(() => {
             handleChangeColor("Higher");
-            }, 800);
+            }, 2000);
             setTimeout(() => {
                 window.scrollTo(0,0);
                 setCurrentSong(nextSong);
                 const index = getRandomIndex(data);
                 setNextSong(data[index.secondIndex]);
                 setScore(score + 1);
-                }, 1550);
+                }, 3000);
         }else {
             displaySongValue();
             setTimeout(() => {
                 handleChangeColor("Higher");
-            }, 800);
+            }, 2000);
             setTimeout(() => {
                 setGameOver(true)
-            }, 1500);
+            }, 2500);
         }
     };
 
@@ -150,34 +153,34 @@ function Game (){
             displaySongValue();
             setTimeout(() => {
                 handleChangeColor("Lower");
-                }, 800);
+                }, 2000);
             setTimeout(() => {
                 window.scrollTo(0,0);
                 setCurrentSong(nextSong);
                 const index = getRandomIndex(data);
                 setNextSong(data[index.secondIndex]);
                 setScore(score + 1);
-                }, 1550);
+                }, 3000);
         } else if(nextSong.value === currentSong.value){
             displaySongValue();
             setTimeout(() => {
                 handleChangeColor("Lower");
-                }, 800);
+                }, 2000);
             setTimeout(() => {
                 window.scrollTo(0,0);
                 setCurrentSong(nextSong);
                 const index = getRandomIndex(data);
                 setNextSong(data[index.secondIndex]);
                 setScore(score + 1);
-                }, 1550);
+                }, 3000);
         }else {
             displaySongValue();
             setTimeout(() => {
                 handleChangeColor("Lower");
-                }, 800);
+                }, 2000);
             setTimeout(() => {
                 setGameOver(true)
-            }, 1500);
+            }, 2500);
         }
     }
     const circleClass = `circle ${isCorrect ? "green" : isWrong ? "red" : ""}`;
@@ -236,7 +239,11 @@ function Game (){
                             <p>Has</p>
                         </div>
                     {displayNextSong && (
-                        <h3 className="card-streams">{nextSong.value.toLocaleString()}</h3>
+                        <CountUp start={nextSong.value * 0.95} end={nextSong.value} duration={2} separator=",">
+                            {({ countUpRef}) => (
+                                <h3 className="card-streams" ref={countUpRef}/>
+                            )}
+                        </CountUp>
                         )}
                    </div>
                     {!displayNextSong && (<div className="card-button-container">
