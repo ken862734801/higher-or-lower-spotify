@@ -1,5 +1,6 @@
 import "./game.css";
 import React, { useEffect, useState} from 'react';
+// handle animations
 import CountUp from "react-countup";
 
 
