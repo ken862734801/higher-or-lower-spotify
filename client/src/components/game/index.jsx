@@ -201,8 +201,8 @@ function Game (){
                     <h1 className="fuschia">Music Edition</h1>
                     <div className="subtitle-container">
                         <h2>Can you guess the more popular song?</h2>
-                        <p>A frustratingly addictive game of higher or lower using the top 200 songs from Spotify's global chart.</p>
-                        <p>The data was last updated on January 26th, 2023.</p>
+                        {/* <p>A frustratingly addictive game of higher or lower using the top 200 songs from Spotify's global chart.</p> */}
+                        {/* <p>The data was last updated on January 26th, 2023.</p> */}
                     </div>
                 </div>
                 <div className="button-container">
