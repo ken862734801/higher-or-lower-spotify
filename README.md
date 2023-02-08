@@ -4,7 +4,7 @@ A frustratingly addictive game of higher or lower using the top 200 songs from S
 https://higherlower.onrender.com/
 
 ## About The App
-<img src="assets/images/higher-or-lower.gif">
+<img src="assets/images/higher-or-lower-gif.gif">
 
 Based on the popular browser game of the same name, this iteration of higher or lower challenges the user to guess which song currently ranks higher or lower on Spotify's global top 200 chart.
 
