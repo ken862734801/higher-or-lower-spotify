@@ -1,5 +1,10 @@
 import json
 
+#last updated on 2/25/2023
+
+# url used to fetch the data
+# https://charts-spotify-com-service.spotify.com/auth/v0/charts/regional-global-weekly/latest
+
 def json_filter(list):
     new_data_array = []
     for data in list:
@@ -16,6 +21,7 @@ def json_filter(list):
 def save_to_json(data, filename):
     with open(filename, "w") as outfile:
         json.dump(data, outfile)
+
 
 # chartData = array of objects from the original spotify api;
 
