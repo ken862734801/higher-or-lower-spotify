@@ -1,6 +1,6 @@
 import json
 
-#last updated on 3/5/2023
+#last updated on 3/21/2023
 
 # url used to fetch the data
 # https://charts-spotify-com-service.spotify.com/auth/v0/charts/regional-global-weekly/latest
