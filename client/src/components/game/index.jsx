@@ -3,6 +3,7 @@ import React, { useEffect, useState} from 'react';
 // handle animations
 import CountUp from "react-countup";
 import StartScreen from "../start-screen/StartScreen";
+import EndScreen from "../end-screen/EndScreen";
 
 
 const getData = async (api) =>{
@@ -243,14 +244,7 @@ function Game (){
            </section>
             )}
             {!showStartScreen && gameOver && (
-                <section className="end-container">
-                    <h1 className="citric">Game Over</h1>
-                    <h2>Your final score was:</h2>
-                    <h2><span className="number">{score}</span></h2>
-                    <div className="button-container">
-                        <button onClick={resetGame}>Play Again</button>
-                    </div>
-                </section>
+               <EndScreen score={score} resetGame={resetGame}/>
             )}
         </main>
     )
