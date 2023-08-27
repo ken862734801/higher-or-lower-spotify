@@ -2,6 +2,7 @@ import "./game.css";
 import React, { useEffect, useState} from 'react';
 // handle animations
 import CountUp from "react-countup";
+import StartScreen from "../start-screen/StartScreen";
 
 
 const getData = async (api) =>{
@@ -194,21 +195,7 @@ function Game (){
                 </div>
             </header>
             {showStartScreen && ! gameOver && (
-            <section className="start-container" id="start-container">
-                <div className="title-container">
-                    <h1 className="citric">Welcome to</h1>
-                    <h1 className="spearmint">Higher or Lower</h1>
-                    <h1 className="fuschia">Music Edition</h1>
-                    <div className="subtitle-container">
-                        <h2>Can you guess the more popular song?</h2>
-                        {/* <p>A frustratingly addictive game of higher or lower using the top 200 songs from Spotify's global chart.</p> */}
-                        {/* <p>The data was last updated on January 26th, 2023.</p> */}
-                    </div>
-                </div>
-                <div className="button-container">
-                    <button onClick={startGame}>Play</button>
-                </div>
-            </section>
+            <StartScreen startGame={startGame}/>
             )}
             {!showStartScreen && ! gameOver && (
                 <section className="game-container" id="game-container">
