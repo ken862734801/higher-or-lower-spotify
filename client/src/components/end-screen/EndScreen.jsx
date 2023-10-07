@@ -2,7 +2,7 @@ import "./end-screen.css";
 import Button from "../button/Button";
 
 export default function EndScreen (props) {
-    const { resetGame, score } = props;
+    const { handleGameReset, score } = props;
     return (
         <div className="end-screen--container">
             <h1 className="citric">Game Over</h1>
@@ -11,7 +11,7 @@ export default function EndScreen (props) {
                 <span className="number">{score}</span>
             </h2>
             <div className="button--container">
-                <Button handleClick={resetGame} buttonText={"Play Again"}/>
+                <Button handleClick={handleGameReset} buttonText={"Play Again"}/>
             </div>
         </div>
     )

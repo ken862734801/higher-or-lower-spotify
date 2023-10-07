@@ -1,0 +1,43 @@
+.game-screen--container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding:20px;
+}
+.vs--container{
+    align-items: center;
+    display: flex;
+    margin: 0px 20px;
+}
+.circle{
+    border:2px solid var(--citric);
+    border-radius:50%;
+    width:70px;
+    height:70px;
+    color:var(--citric);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.50em;
+    font-weight: bold;
+}
+.circle.red {
+    background-color: var(--fuchsia);
+    border-color: var(--fuchsia);
+    color:white;
+}
+.circle.green {
+    background-color: var(--citric);
+    border-color: var(--citric);
+    color:black;
+    font-size: 1.75em;
+}
+
+@media screen and (max-width: 768px) {
+    .circle{
+        font-size:1rem;
+        width:50px !important;
+        height:50px !important; 
+        margin:12.5px 0px;
+    }
+}

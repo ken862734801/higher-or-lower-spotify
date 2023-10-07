@@ -1,7 +1,7 @@
-import "./start-screen.css";
 import Button from "../button/Button";
+import './start-screen.css';
 export default function StartScreen (props) {
-    const {startGame} = props;
+    const {handleGameStart} = props;
     return (
         <div className="start-screen--container">
             <div className="title--container">
@@ -13,7 +13,7 @@ export default function StartScreen (props) {
                 </div>
             </div>
             <div className="button--container">
-                <Button handleClick={startGame} buttonText={'Play'}/>
+                <Button handleClick={handleGameStart} buttonText={'Play'}/>
             </div>
         </div>
     )

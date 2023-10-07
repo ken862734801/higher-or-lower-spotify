@@ -23,14 +23,14 @@ db.once("open", async () => {
     try{
         await Song.deleteMany({});
         await Song.create(data);
-        console.log("all done!")
+        console.log("The database has been seeded!")
     } catch (err){
         throw err;
     }
 });
 
 db.once("connected", () => {
-    console.log("database is connected!")
+    console.log("The database is connected!")
 });
 
 const app = express();
@@ -47,5 +47,5 @@ if(process.env.NODE_ENV === "production"){
 }
 
 app.listen(port, () => {
-    console.log(`server started at ${port}`)
+    console.log(`server started at ${port}!`)
 });
