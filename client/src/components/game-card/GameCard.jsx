@@ -12,7 +12,7 @@ export default function GameCard (props) {
         </div>
         <div className="game-card-text--container">
             <div className="p-element--container">
-                <p className="card--title">{song.trackName}</p>
+                <p className="card--title" title={song.trackName}>{song.trackName}</p>
                 <p className="card--artist">{song.name}</p>
                 <p>Has</p>
             </div>
