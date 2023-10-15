@@ -16,6 +16,13 @@
     /* font-family: 'Figtree', sans-serif; */
     font-size:1.10em;
 }
+.card--title{
+    width:300px;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 .card-button--container{
     display:flex;
     flex-direction: column;
