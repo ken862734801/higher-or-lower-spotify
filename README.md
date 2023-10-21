@@ -1,4 +1,4 @@
-# higher-lower-game
+# higher-lower-spotify
 A frustratingly addictive game of higher or lower using the top 200 songs from Spotify's global chart.
 
 [https://higherorlower-spotify.onrender.com/](https://higherorlower-spotify.onrender.com/)
