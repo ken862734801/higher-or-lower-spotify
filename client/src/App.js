@@ -1,6 +1,6 @@
 import './App.css';
 
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Header from './components/header/Header';
 import StartScreen from './components/start-screen/StartScreen';
 import GameScreen from './components/game-screen/GameScreen';
@@ -8,9 +8,12 @@ import EndScreen from './components/end-screen/EndScreen';
 
 async function getData (url) {
   try {
-    const response = await fetch(url);
+    const headers = {
+      "X-API-Key": process.env.REACT_APP_API_KEY,
+    }
+    const response = await fetch(url, {headers});
     const data = await response.json();
-      return data
+    return data
   } catch (err){
     console.error(err);
   }
