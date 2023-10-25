@@ -38,13 +38,17 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
+app.use((req, res, next) => {
+    const apiKey = req.header("X-API-Key");
+
+    if (apiKey === process.env.API_KEY) {
+        next();
+    } else {
+        res.status(403).json("Invalid API Key");
+    }
+});
+
 app.use("/api", routes);
-
-if(process.env.NODE_ENV === "production"){
-    app.use(express.static("client/build"));
-
-    app.get("*", (req, res) => res.sendFile(path.resolve(__dirname, "client", "build", "index.html")));
-}
 
 app.listen(port, () => {
     console.log(`server started at ${port}!`)
