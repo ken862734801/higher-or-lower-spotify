@@ -44,7 +44,7 @@ app.use((req, res, next) => {
     if (apiKey === process.env.API_KEY) {
         next();
     } else {
-        res.status(403).json("Invalid API Key");
+        res.status(401).json("Invalid X-API Key");
     }
 });
 
