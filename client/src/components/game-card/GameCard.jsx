@@ -2,7 +2,7 @@ import CountUp from "react-countup";
 import "./game-card.css";
 
 export default function GameCard (props) {
-    const {handleSelectHigher, handleSelectLower, status, song, displayNextSong} = props;
+    const {handleUserChoice, status, song, displayNextSong} = props;
     const isPrimary = status === 'primary';
 
    return (
@@ -25,8 +25,8 @@ export default function GameCard (props) {
         </div>
         {!isPrimary && !displayNextSong && (
             <div className="card-button--container">
-                <button onClick={handleSelectHigher}>Higher</button>
-                <button onClick={handleSelectLower}>Lower</button>
+                <button onClick={()=> handleUserChoice('Higher')}>Higher</button>
+                <button onClick={()=> handleUserChoice('Lower')}>Lower</button>
             </div>
         )}
         <p className="p-streams">streams</p>

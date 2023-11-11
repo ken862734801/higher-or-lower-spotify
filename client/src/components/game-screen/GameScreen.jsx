@@ -2,8 +2,7 @@ import "./game-screen.css";
 import GameCard from "../game-card/GameCard";
 export default function GameScreen (props) {
     const { 
-            handleSelectHigher,
-            handleSelectLower,
+            handleUserChoice,
             nextSong,
             currentSong,
             displayNextSong, 
@@ -15,8 +14,7 @@ export default function GameScreen (props) {
             <div className="vs--container">
                 <div className={containerClassName}>{text}</div>
             </div>
-            <GameCard handleSelectHigher={handleSelectHigher}
-                      handleSelectLower={handleSelectLower} 
+            <GameCard handleUserChoice={handleUserChoice}
                       song={nextSong} status={"secondary"} 
                       displayNextSong={displayNextSong}/>
         </div>

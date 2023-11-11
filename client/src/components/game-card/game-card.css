@@ -31,9 +31,6 @@
     align-items: center;
     justify-content: center;
     height:100px;
-    /* margin-top:4px;
-    margin-bottom: 2px; */
-    /* border:1px solid red; */
 }
 .card-button--container > button{
     border:1px solid var(--citric);

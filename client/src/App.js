@@ -13,7 +13,7 @@ async function getData (url) {
     }
     const response = await fetch(url, {headers});
     const data = await response.json();
-    return data
+      return data
   } catch (err){
     console.error(err);
   }
@@ -91,77 +91,38 @@ function App() {
     }
 };
 
-  const handleSelectHigher = () => {
-    if(nextSong.value > currentSong.value){
-        displaySongValue();
-        setTimeout(() => {
-        handleChangeColor("Higher");
-        }, 2000);
-        setTimeout(() => {
-            window.scrollTo(0,0);
-            setCurrentSong(nextSong);
-            const index = getRandomSong(data);
-            setNextSong(data[index.secondIndex]);
-            setScore(score + 1);
-            }, 3000);
-    } else if(nextSong.value === currentSong.value){
-        displaySongValue();
-        setTimeout(() => {
-        handleChangeColor("Higher");
-        }, 2000);
-        setTimeout(() => {
-            window.scrollTo(0,0);
-            setCurrentSong(nextSong);
-            const index = getRandomSong(data);
-            setNextSong(data[index.secondIndex]);
-            setScore(score + 1);
-            }, 3000);
-    }else {
-        displaySongValue();
-        setTimeout(() => {
-            handleChangeColor("Higher");
-        }, 2000);
-        setTimeout(() => {
-            setGameOver(true);
-            setShowHeader(false);
-        }, 2750);
-    }
-};
+  function handleSongUpdate(choice){
+    displaySongValue();
+    setTimeout(() => {
+      handleChangeColor(choice);
+    }, 2000);
+    setTimeout(() => {
+      window.scrollTo(0, 0);
+      setCurrentSong(nextSong);
+      const index = getRandomSong(data);
+      setNextSong(data[index.secondIndex]);
+      if (
+        (choice === "Higher" && nextSong.value > currentSong.value) ||
+        (choice === "Lower" && nextSong.value < currentSong.value) ||
+        nextSong.value === currentSong.value
+      ) {
+        setScore(score + 1);
+      }
+    }, 3000);
+  }
 
-  function handleSelectLower(){
-    if(nextSong.value < currentSong.value){
-      displaySongValue();
+  function handleUserChoice(choice){
+    const isHigher = choice === "Higher";
+    if((isHigher && nextSong.value > currentSong.value) || (!isHigher && nextSong.value < currentSong.value)){
+      handleSongUpdate(choice);
+    } else if (nextSong.value === currentSong.value){
+      handleSongUpdate(choice);
+    } else {
+      handleSongUpdate(choice);
       setTimeout(() => {
-          handleChangeColor("Lower");
-          }, 2000);
-      setTimeout(() => {
-          window.scrollTo(0,0);
-          setCurrentSong(nextSong);
-          const index = getRandomSong(data);
-          setNextSong(data[index.secondIndex]);
-          setScore(score + 1);
-          }, 3000);
-    } else if(nextSong.value === currentSong.value){
-        displaySongValue();
-        setTimeout(() => {
-            handleChangeColor("Lower");
-            }, 2000);
-        setTimeout(() => {
-            window.scrollTo(0,0);
-            setCurrentSong(nextSong);
-            const index = getRandomSong(data);
-            setNextSong(data[index.secondIndex]);
-            setScore(score + 1);
-            }, 3000);
-    }else {
-        displaySongValue();
-        setTimeout(() => {
-            handleChangeColor("Lower");
-            }, 2000);
-        setTimeout(() => {
-            setGameOver(true);
-            setShowHeader(false);
-        }, 2750);
+        setGameOver(true);
+        setShowHeader(false);
+      }, 2750);
     }
   };
 
@@ -204,8 +165,7 @@ function App() {
       {showHeader && (<Header score={score} highScore={highScore}/>)}
       {showStartScreen && <StartScreen handleGameStart={handleGameStart}/>}
       {!showStartScreen && !gameOver && (
-        <GameScreen handleSelectHigher={handleSelectHigher}
-                    handleSelectLower={handleSelectLower} 
+        <GameScreen handleUserChoice={handleUserChoice}
                     currentSong={currentSong} 
                     nextSong={nextSong} 
                     containerClassName={containerClassName} 
