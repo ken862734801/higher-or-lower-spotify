@@ -1,30 +1,36 @@
-.end-screen--container > h1{
+.end-screen{
+    font-family: 'Figtree', sans-serif;
+}
+.end-screen > h1{
     font-size:4.75em;
     font-weight: bold;
     text-transform: uppercase;
 }
-.number{
+.end-screen > h2:nth-of-type(1){
+    color:white;
+    font-size: 1.55em;
+    text-transform: uppercase;
+}
+.final-score{
     color:var(--fuchsia);
-    font-size:3em;
+    font-size:4.75em;
+    margin: 10px 0px;
 }
 
-@media screen and (max-width: 768px) {
-    .end-screen--container > h1{
-        font-size: 3.15em;
+@media screen and (max-width: 768px){
+    .end-screen > h1{
+        font-size:3.15em;
     }
-    h2:nth-of-type(1){
+    .end-screen > h2:nth-of-type(1){
         font-size:1.25em;
-        max-width:350px;
-        margin: 0 auto;
     }
-    .number{
-        color:var(--fuchsia);
-        font-size:2.5em;
+    .final-score{
+        font-size:4em;
     }
 }
 
 @media screen and (max-width: 420px){
-    .end-screen--container > h1{
-        font-size:2.5rem;
+    .end-screen > h1 {
+        font-size:2.5em;
     }
 }

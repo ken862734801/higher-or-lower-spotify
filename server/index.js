@@ -39,12 +39,12 @@ app.use(express.json());
 app.use(cors());
 
 app.use((req, res, next) => {
-    const apiKey = req.header("X-API-Key");
+    const apiKey = req.header("x-api-key");
 
     if (apiKey === process.env.API_KEY) {
         next();
     } else {
-        res.status(401).json("Invalid X-API Key");
+        res.status(401).json("Missing x-api-key...");
     }
 });
 
