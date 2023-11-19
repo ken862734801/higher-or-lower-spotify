@@ -1,13 +1,15 @@
-import "./header.css";
+import './header.css';
 
-export default function Header (props) {
-    const { highScore, score } = props;
+function Header(props){
+    const { gameState } = props;
     return (
         <header>
-            <div className="header--container">
-                <p>High Score: {highScore}</p>
-                <p>Score: {score}</p>
+            <div className='header--container'>
+                <p>High Score: { gameState.highScore }</p>
+                <p>Score: { gameState.score } </p>
             </div>
         </header>
     )
 };
+
+export default Header;

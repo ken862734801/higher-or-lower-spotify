@@ -1,7 +1,10 @@
-import "./button.css";
-export default function Button (props){
-    const { handleClick, buttonText } = props;
+import './button.css';
+
+function Button(props){
+    const { handleOnClick, text } = props;
     return (
-        <button className="button--element" onClick={handleClick}>{buttonText}</button>
+        <button onClick={handleOnClick} className='button--element'>{ text }</button>
     )
-}
+};
+
+export default Button;

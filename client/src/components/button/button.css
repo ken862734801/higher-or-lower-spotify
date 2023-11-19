@@ -1,23 +1,23 @@
 .button--element{
+    background-color: #000000;
     border:1px solid white;
     border-radius: 36px;
-    background-color: #000000;
     color:white;
     cursor: pointer;
     font-size: 1.15em;
     margin: 0px 10px;
     padding:12px 0px;
     text-transform: uppercase;
-    width: 175px;
+    width:175px;
 }
 .button--element:hover{
     background-color: white;
     color:#000000;
-    transition: 0.3s;
+    transition: 0.3s
 }
 
 @media screen and (max-width: 768px){
-    .button--element {
+    .button--element{
         font-size:1em;
         width:150px;
     }
