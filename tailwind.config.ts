@@ -8,10 +8,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      fontFamily: {
+        figtree: ["var(--figtree)"],
+      },
+      colors: {
+        citrus: "#CDF564",
+        fuchsia: "#F037A5",
+        spearmint: "#4B917D"
       },
     },
   },
