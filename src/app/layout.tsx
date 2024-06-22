@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import { Figtree } from "next/font/google";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/react"
 
 const figTree = Figtree({
   subsets: ["latin"],
@@ -22,6 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={figTree.variable}>
       <body>{children}</body>
+      <Analytics/>
     </html>
   );
 }
