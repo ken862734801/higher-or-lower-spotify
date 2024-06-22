@@ -190,7 +190,6 @@ export default function Home() {
 
   useEffect(() => {
     getSongs();
-    console.log(typeof gameState.currentSong.value);
   }, [data]);
 
   useEffect(() => {
