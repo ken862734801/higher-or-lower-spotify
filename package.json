@@ -1,35 +1,31 @@
 {
-  "name": "higher-lower-game",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
   "dependencies": {
-    "cors": "^2.8.5",
-    "http-proxy-middleware": "^2.0.6",
-    "object-assign": "^4.1.1",
-    "vary": "^1.1.2"
+    "@phosphor-icons/react": "^2.1.6",
+    "clsx": "^2.1.1",
+    "next": "14.2.4",
+    "react": "^18",
+    "react-countup": "^6.5.3",
+    "react-dom": "^18",
+    "tailwind-merge": "^2.3.0"
   },
   "devDependencies": {
-    "concurrently": "^7.6.0"
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.4",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
   },
-  "scripts": {
-    "start": "concurrently \"cd client && npm start\" \"cd server && npm start\"",
-    "react-dev": "cd client && npm start",
-    "test": "cd server && npm test",
-    "preinstall": "cd server && npm install",
-    "install": "cd client && npm install",
-    "build": "cd client && npm run build",
-    "start:prod": "serve -s dist -l 3000",
-    "render-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build -- prefix client"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ken862734801/higher-lower-game.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ken862734801/higher-lower-game/issues"
-  },
-  "homepage": "https://github.com/ken862734801/higher-lower-game#readme"
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }

@@ -1,52 +1,36 @@
-# higher-or-lower-spotify
-A frustratingly addictive game of higher or lower using the top 200 songs from Spotify's global chart.
-
-[https://higherorlower-spotify.onrender.com/](https://higherorlower-spotify.onrender.com/)
-
-## About The App
-<img src="assets/images/higher-or-lower-spotify-edition.gif">
-
-Based on the popular browser game of the same name, this iteration of higher or lower challenges the user to guess which song currently ranks higher or lower on Spotify's global top 200 chart.
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
-### Prerequisites
-To run locally one will need to have a mongoDB account with which they can use a connection string to connect to a database.
+First, run the development server:
 
-The connection string will look like this and will be saved under the variable name "DATABASE_URL" in an .env file.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-    DATABASE_URL = mongodb+srv://<username>:<password>@cluster0.hbovlsj.mongodb.net/<database-name>
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-### Installation
-1. Clone the respository:
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-        git clone git@github.com:ken862734801/higher-or-lower.git
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-2. Install NPM packages:
+## Learn More
 
-        npm install
+To learn more about Next.js, take a look at the following resources:
 
-3. Run the NPM start command:
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-    The root package.json contains "concurrently" as a dev dependency to allow for the server and client initialization to occur at the same time. 
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-        npm run start
+## Deploy on Vercel
 
-## Deployment
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-As listed above, the live preview for the application is currently hosted on Render. Render is a unified cloud to build and run apps and websites with free TLS certificates, global CDN, DDos protection, private networks, and built in auto deploys from Git. 
-
-https://render.com/
-
-As of right now this is being deployed under a paid tier so there should be no issues with up time; however, this could change in the future so it is recommend to run the application locally for the best experience.
-
-## Built Using
-
-This application was built using MongoDB, Express, React, and Node. Python was also used for functionality related to filtering the original data obtained from the Spotify API into a more concise format. The newly filter array of objects is then returned as a JSON file, which was used to seed the MongoDB database. 
-
-https://developer.spotify.com/documentation/web-api/
-
-## Future Development
-
-- Implement different game modes depending on genres and regions.
-- Implement a counter animation upon the reveal of song streams.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
