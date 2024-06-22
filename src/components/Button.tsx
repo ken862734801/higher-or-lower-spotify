@@ -15,7 +15,7 @@ export const Button: React.FC<ButtonProps> = ({
   const classes = cn("rounded-full uppercase", className);
   return (
     <button className={classes} onClick={onClick}>
-      <span className="text-xl">{children}</span>
+      <span>{children}</span>
     </button>
   );
 };

@@ -13,7 +13,7 @@ export interface Data {
   trackName: string;
   name: string;
   displayImageUri: string;
-  value: string;
+  value: number;
 }
 
 export type Choice = "higher" | "lower";
@@ -22,7 +22,7 @@ export type Answer = "correct" | "incorrect";
 export interface GameState {
   currentSong: Data;
   nextSong: Data;
-};
+}
 
 export interface Scores {
   score: number;
@@ -39,14 +39,14 @@ export default function Home() {
       trackName: "",
       name: "",
       displayImageUri: "",
-      value: "",
+      value: 0,
     },
     nextSong: {
       currentRank: 0,
       trackName: "",
       name: "",
       displayImageUri: "",
-      value: "",
+      value: 0,
     },
   });
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
@@ -74,21 +74,33 @@ export default function Home() {
     if (data) {
       const randomIndex = getRandomIndex(data);
       setGameState({
-        currentSong: data[randomIndex.firstIndex],
-        nextSong: data[randomIndex.secondIndex],
+        currentSong: {
+          ...data[randomIndex.firstIndex],
+          value: Number(data[randomIndex.firstIndex].value),
+        },
+        nextSong: {
+          ...data[randomIndex.secondIndex],
+          value: Number(data[randomIndex.secondIndex].value),
+        },
       });
     }
-    console.log(gameState)
   };
 
   const getNextSong = () => {
     if (data) {
       const randomIndex = getRandomIndex(data);
       setTimeout(() => {
+        window.scrollTo(0, 0);
         setGameState((prev) => ({
           ...prev,
-          currentSong: prev.nextSong,
-          nextSong: data[randomIndex.firstIndex],
+          currentSong: {
+            ...prev.nextSong,
+            value: Number(prev.nextSong.value),
+          },
+          nextSong: {
+            ...data[randomIndex.firstIndex],
+            value: Number(data[randomIndex.firstIndex].value),
+          },
         }));
       }, 3000);
     }
@@ -100,12 +112,12 @@ export default function Home() {
 
   const endGame = () => {
     setTimeout(() => {
-      setGameOver(true)
-    }, 3000)
+      setGameOver(true);
+    }, 3000);
   };
 
   const restartGame = () => {
-    setShowStartScreen(true);
+    setShowStartScreen(false);
     getSongs();
     resetScore();
     setGameOver(false);
@@ -114,7 +126,7 @@ export default function Home() {
   const incrementScore = () => {
     setScores((prev) => ({
       ...prev,
-      scores: prev.score + 1,
+      score: prev.score + 1,
     }));
   };
 
@@ -167,7 +179,7 @@ export default function Home() {
       incrementScore();
     } else {
       handleShowCount();
-      handleIsCorrect('incorrect')
+      handleIsCorrect("incorrect");
       endGame();
     }
   };
@@ -178,6 +190,7 @@ export default function Home() {
 
   useEffect(() => {
     getSongs();
+    console.log(typeof gameState.currentSong.value);
   }, [data]);
 
   useEffect(() => {
