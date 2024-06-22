@@ -11,7 +11,7 @@ const figTree = Figtree({
 
 export const metadata: Metadata = {
   title: "Higher or Lower: Spotify Edition",
-  description: "A frustratingly addictive game of higher or lower using songs from Spotify's Weekly Global Chart. Play now!",
+  description: "A frustratingly addictive game of higher or lower where users guess which song has a higher weekly stream count on Spotify. Play now!",
 };
 
 export default function RootLayout({
