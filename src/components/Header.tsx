@@ -15,3 +15,5 @@ export const Header: React.FC<HeaderProps> = memo(({ scores }) => {
     </header>
   );
 });
+
+Header.displayName = "Header";
