@@ -58,7 +58,7 @@ export default function Home() {
 
   const getData = async () => {
     try {
-      const response = await fetch("http://localhost:3000/api/data");
+      const response = await fetch("/api/data");
       if (response.status === 200) {
         const responseJSON = await response.json();
         setData(responseJSON);
