@@ -1,6 +1,6 @@
-# Higher of Lower Spotify
+# Higher or Lower: Spotify Edition
 
-A browser game using React, where users guess which of two songs has a higher weekly stream count on Spotify.
+A browser game using React, where users guess which song has more weekly streams on Spotify.
 
 [Live Demo](https://higher-or-lower-spotify.vercel.app/)
 
