@@ -11,7 +11,8 @@ const figTree = Figtree({
 
 export const metadata: Metadata = {
   title: "Higher or Lower: Spotify Edition",
-  description: "An addictive game of higher or lower. Guess which song has more streams this week on Spotify.",
+  description: "An addictive game of higher or lower. Guess which song has more weekly streams on Spotify.",
+  keywords: ["higher or hower", "Spotify"]
 };
 
 export default function RootLayout({
