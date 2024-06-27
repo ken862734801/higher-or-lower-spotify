@@ -10,7 +10,7 @@ describe("Start Screen", () => {
     expect(screen.getByText(/Higher Or Lower/i)).toBeInTheDocument();
     expect(screen.getByText(/Spotify Edition/i)).toBeInTheDocument();
     expect(
-      screen.getByText(/Can you guess this week's most played song?/i)
+      screen.getByText(/Which song has more streams this week?/i)
     ).toBeInTheDocument();
 
     const playButton = screen.getByRole("button", { name: /Play/i });
