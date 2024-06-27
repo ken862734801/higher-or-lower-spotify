@@ -1,4 +1,4 @@
-# Higher or Lower Spotify
+# Higher or Lower: Spotify Edition
 
 A browser game using React, where users guess which of two songs has a higher weekly stream count on Spotify.
 
