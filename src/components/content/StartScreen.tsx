@@ -13,7 +13,7 @@ export const StartScreen: React.FC<StartScreenProps> = ({ startGame }) => {
         <h1 className="text-fuchsia">Spotify Edition</h1>
         <div>
           <h2 className="text-white md:text-xl text-base my-2">
-            Can you guess this week&apos;s most played song?
+            Which song has more streams this week?
           </h2>
         </div>
       </div>
