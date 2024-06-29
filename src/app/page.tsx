@@ -124,10 +124,12 @@ export default function Home() {
   };
 
   const incrementScore = () => {
-    setScores((prev) => ({
-      ...prev,
-      score: prev.score + 1,
-    }));
+    setTimeout(() => {
+      setScores((prev) => ({
+        ...prev,
+        score: prev.score + 1,
+      }));
+    }, 3000)
   };
 
   const resetScore = () => {
