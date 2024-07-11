@@ -20,7 +20,7 @@ Before you can run the project, ensure you have the following installed:
 
 To clone the repository, run:
 
-    git@github.com:<USERNAME>/higher-or-lower-spotify.git
+    git@github.com:ken862734801/higher-or-lower-spotify.git
 
 To install the necessary dependencies, run:
 
