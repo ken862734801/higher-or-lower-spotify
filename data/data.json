@@ -1,1402 +1,1402 @@
 [
     {
         "currentRank": 1,
-        "trackName": "Espresso",
-        "name": "Sabrina Carpenter",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02659cd4673230913b3918e0d5",
-        "value": "58704777"
-    },
-    {
-        "currentRank": 2,
         "trackName": "BIRDS OF A FEATHER",
         "name": "Billie Eilish",
         "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0271d62ea7ea8a5be92d3c1f62",
-        "value": "57076517"
+        "value": "57773076"
+    },
+    {
+        "currentRank": 2,
+        "trackName": "Espresso",
+        "name": "Sabrina Carpenter",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02659cd4673230913b3918e0d5",
+        "value": "53226150"
     },
     {
         "currentRank": 3,
         "trackName": "Please Please Please",
         "name": "Sabrina Carpenter",
         "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02de84adf0e48248ea2d769c3e",
-        "value": "54226821"
+        "value": "51034465"
     },
     {
         "currentRank": 4,
         "trackName": "Not Like Us",
         "name": "Kendrick Lamar",
         "displayImageUri": "https://i.scdn.co/image/ab67616d00001e021ea0c62b2339cbf493a999ad",
-        "value": "44056041"
+        "value": "43075241"
     },
     {
         "currentRank": 5,
         "trackName": "Gata Only",
         "name": "FloyyMenor",
         "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02c4583f3ad76630879a75450a",
-        "value": "39127542"
+        "value": "39189410"
     },
     {
         "currentRank": 6,
-        "trackName": "A Bar Song (Tipsy)",
-        "name": "Shaboozey",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0260df033c8f8b17384387666a",
-        "value": "34807878"
+        "trackName": "Si Antes Te Hubiera Conocido",
+        "name": "KAROL G",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02491678beaffcefac517a699e",
+        "value": "35311853"
     },
     {
         "currentRank": 7,
-        "trackName": "MILLION DOLLAR BABY",
-        "name": "Tommy Richman",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0201c0cd5da820e6128655854f",
-        "value": "34569321"
+        "trackName": "Good Luck, Babe!",
+        "name": "Chappell Roan",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0291b4bc7c88d91a42e0f3a8b7",
+        "value": "35157285"
     },
     {
         "currentRank": 8,
         "trackName": "Beautiful Things",
         "name": "Benson Boone",
         "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02cc04ff3e70e146ba9abacf40",
-        "value": "33896952"
+        "value": "33761185"
     },
     {
         "currentRank": 9,
-        "trackName": "Good Luck, Babe!",
-        "name": "Chappell Roan",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0291b4bc7c88d91a42e0f3a8b7",
-        "value": "33693846"
+        "trackName": "MILLION DOLLAR BABY",
+        "name": "Tommy Richman",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0201c0cd5da820e6128655854f",
+        "value": "33381544"
     },
     {
         "currentRank": 10,
-        "trackName": "Si Antes Te Hubiera Conocido",
-        "name": "KAROL G",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02491678beaffcefac517a699e",
-        "value": "32925540"
+        "trackName": "A Bar Song (Tipsy)",
+        "name": "Shaboozey",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0260df033c8f8b17384387666a",
+        "value": "33178574"
     },
     {
         "currentRank": 11,
-        "trackName": "Too Sweet",
-        "name": "Hozier",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e022e8b4358d044b75807e30bf0",
-        "value": "31707566"
+        "trackName": "Houdini",
+        "name": "Eminem",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e021633c43b5695735f7de36487",
+        "value": "31239876"
     },
     {
         "currentRank": 12,
-        "trackName": "I Had Some Help (Feat. Morgan Wallen)",
-        "name": "Post Malone",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0297306976e3eb8aad53b754eb",
-        "value": "29353735"
+        "trackName": "Too Sweet",
+        "name": "Hozier",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e022e8b4358d044b75807e30bf0",
+        "value": "30250562"
     },
     {
         "currentRank": 13,
-        "trackName": "i like the way you kiss me",
-        "name": "Artemas",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e028976bb29d48de71fa31a3644",
-        "value": "25027504"
+        "trackName": "I Had Some Help (Feat. Morgan Wallen)",
+        "name": "Post Malone",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0297306976e3eb8aad53b754eb",
+        "value": "28870791"
     },
     {
         "currentRank": 14,
-        "trackName": "Rockstar",
-        "name": "LISA",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0297265410628ab7f94a380c9d",
-        "value": "24539989"
+        "trackName": "Alibi (with Pabllo Vittar & Yseult)",
+        "name": "Sevdaliza",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e024ee35e37bc21fe929a4d3605",
+        "value": "25295831"
     },
     {
         "currentRank": 15,
-        "trackName": "REAL GANGSTA LOVE",
-        "name": "Trueno",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0268a450f7bcdc187e20f0ba0a",
-        "value": "23680456"
-    },
-    {
-        "currentRank": 16,
-        "trackName": "Houdini",
-        "name": "Eminem",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02810603c94c9246379604cf1a",
-        "value": "22912050"
-    },
-    {
-        "currentRank": 17,
-        "trackName": "End of Beginning",
-        "name": "Djo",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02fddfffec51b4580acae727c1",
-        "value": "22843823"
-    },
-    {
-        "currentRank": 18,
-        "trackName": "LUNCH",
-        "name": "Billie Eilish",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0271d62ea7ea8a5be92d3c1f62",
-        "value": "22774991"
-    },
-    {
-        "currentRank": 19,
-        "trackName": "Stargazing",
-        "name": "Myles Smith",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0281b12e1a0584e8ea7ba2ae4a",
-        "value": "22505715"
-    },
-    {
-        "currentRank": 20,
         "trackName": "Lose Control",
         "name": "Teddy Swims",
         "displayImageUri": "https://i.scdn.co/image/ab67616d00001e021a0323cc23419360a34a3ace",
-        "value": "22406178"
+        "value": "25072040"
+    },
+    {
+        "currentRank": 16,
+        "trackName": "i like the way you kiss me",
+        "name": "Artemas",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e028fe69d8df304ff053693653e",
+        "value": "23182700"
+    },
+    {
+        "currentRank": 17,
+        "trackName": "Stargazing",
+        "name": "Myles Smith",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0281b12e1a0584e8ea7ba2ae4a",
+        "value": "23173238"
+    },
+    {
+        "currentRank": 18,
+        "trackName": "REAL GANGSTA LOVE",
+        "name": "Trueno",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0268a450f7bcdc187e20f0ba0a",
+        "value": "22504129"
+    },
+    {
+        "currentRank": 19,
+        "trackName": "End of Beginning",
+        "name": "Djo",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02fddfffec51b4580acae727c1",
+        "value": "21916897"
+    },
+    {
+        "currentRank": 20,
+        "trackName": "LUNCH",
+        "name": "Billie Eilish",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0271d62ea7ea8a5be92d3c1f62",
+        "value": "21702702"
     },
     {
         "currentRank": 21,
-        "trackName": "Tough",
-        "name": "Quavo",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02e1a7ec3a606b52b7328d3e78",
-        "value": "22087923"
+        "trackName": "As It Was",
+        "name": "Harry Styles",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e022e8ed79e177ff6011076f5f0",
+        "value": "21676888"
     },
     {
         "currentRank": 22,
-        "trackName": "Fortnight (feat. Post Malone)",
-        "name": "Taylor Swift",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e025076e4160d018e378f488c33",
-        "value": "22086370"
-    },
-    {
-        "currentRank": 23,
-        "trackName": "we can't be friends (wait for your love)",
-        "name": "Ariana Grande",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e028b58d20f1b77295730db15b4",
-        "value": "21760816"
-    },
-    {
-        "currentRank": 24,
-        "trackName": "Smeraldo Garden Marching Band (feat. Loco)",
-        "name": "Jimin",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0238881a83135ef5b4ace418ba",
-        "value": "20820210"
-    },
-    {
-        "currentRank": 25,
         "trackName": "Cruel Summer",
         "name": "Taylor Swift",
         "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02e787cffec20aa2a396a61647",
-        "value": "20698357"
+        "value": "21454425"
+    },
+    {
+        "currentRank": 23,
+        "trackName": "Fortnight (feat. Post Malone)",
+        "name": "Taylor Swift",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e025076e4160d018e378f488c33",
+        "value": "21302185"
+    },
+    {
+        "currentRank": 24,
+        "trackName": "Rockstar",
+        "name": "LISA",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0297265410628ab7f94a380c9d",
+        "value": "20802307"
+    },
+    {
+        "currentRank": 25,
+        "trackName": "we can't be friends (wait for your love)",
+        "name": "Ariana Grande",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e028b58d20f1b77295730db15b4",
+        "value": "20765441"
     },
     {
         "currentRank": 26,
         "trackName": "One Of The Girls (with JENNIE, Lily Rose Depp)",
         "name": "The Weeknd",
         "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02b0dd6a5cd1dec96c4119c262",
-        "value": "20550391"
+        "value": "19894767"
     },
     {
         "currentRank": 27,
-        "trackName": "As It Was",
-        "name": "Harry Styles",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e022e8ed79e177ff6011076f5f0",
-        "value": "20269010"
-    },
-    {
-        "currentRank": 28,
-        "trackName": "The Night We Met",
-        "name": "Lord Huron",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e029d2efe43d5b7ebc7cb60ca81",
-        "value": "19509774"
-    },
-    {
-        "currentRank": 29,
-        "trackName": "CHIHIRO",
-        "name": "Billie Eilish",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0271d62ea7ea8a5be92d3c1f62",
-        "value": "19242416"
-    },
-    {
-        "currentRank": 30,
         "trackName": "Austin (Boots Stop Workin')",
         "name": "Dasha",
         "displayImageUri": "https://i.scdn.co/image/ab67616d00001e024ccf88b66e04cfd247f287eb",
-        "value": "18362738"
+        "value": "19690035"
+    },
+    {
+        "currentRank": 28,
+        "trackName": "Renaissance",
+        "name": "Eminem",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e021633c43b5695735f7de36487",
+        "value": "19573901"
+    },
+    {
+        "currentRank": 29,
+        "trackName": "The Night We Met",
+        "name": "Lord Huron",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e029d2efe43d5b7ebc7cb60ca81",
+        "value": "19232521"
+    },
+    {
+        "currentRank": 30,
+        "trackName": "Habits",
+        "name": "Eminem",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e021633c43b5695735f7de36487",
+        "value": "18838907"
     },
     {
         "currentRank": 31,
-        "trackName": "LUNA",
-        "name": "Feid",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02f1aad814a40ec7419c234242",
-        "value": "17708217"
+        "trackName": "Tough",
+        "name": "Quavo",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02e1a7ec3a606b52b7328d3e78",
+        "value": "18439548"
     },
     {
         "currentRank": 32,
-        "trackName": "BAND4BAND (feat. Lil Baby)",
-        "name": "Central Cee",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e027b588bf0555bde606f8b27c7",
-        "value": "17549061"
+        "trackName": "CHIHIRO",
+        "name": "Billie Eilish",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0271d62ea7ea8a5be92d3c1f62",
+        "value": "18431009"
     },
     {
         "currentRank": 33,
-        "trackName": "Sweater Weather",
-        "name": "The Neighbourhood",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e028265a736a1eb838ad5a0b921",
-        "value": "17442554"
+        "trackName": "Move",
+        "name": "Adam Port",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0217a013a00d0a33f3dd49974d",
+        "value": "18210808"
     },
     {
         "currentRank": 34,
         "trackName": "Belong Together",
         "name": "Mark Ambor",
         "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02ed71b8008aaa879622f8c3b5",
-        "value": "17431683"
+        "value": "17940325"
     },
     {
         "currentRank": 35,
-        "trackName": "I Wanna Be Yours",
-        "name": "Arctic Monkeys",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e024ae1c4c5c45aabe565499163",
-        "value": "17409029"
+        "trackName": "Sweater Weather",
+        "name": "The Neighbourhood",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e028265a736a1eb838ad5a0b921",
+        "value": "17938221"
     },
     {
         "currentRank": 36,
-        "trackName": "Santa",
-        "name": "Rvssian",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02edf307a421ee80c9262f8dc8",
-        "value": "16791897"
+        "trackName": "Smeraldo Garden Marching Band (feat. Loco)",
+        "name": "Jimin",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0238881a83135ef5b4ace418ba",
+        "value": "17828080"
     },
     {
         "currentRank": 37,
-        "trackName": "Viva La Vida",
-        "name": "Coldplay",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02e21cc1db05580b6f2d2a3b6e",
-        "value": "15702365"
+        "trackName": "LUNA",
+        "name": "Feid",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02f1aad814a40ec7419c234242",
+        "value": "17793723"
     },
     {
         "currentRank": 38,
-        "trackName": "Move",
-        "name": "Adam Port",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0217a013a00d0a33f3dd49974d",
-        "value": "15646691"
+        "trackName": "BAND4BAND (feat. Lil Baby)",
+        "name": "Central Cee",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e027b588bf0555bde606f8b27c7",
+        "value": "17614896"
     },
     {
         "currentRank": 39,
-        "trackName": "I Don't Wanna Wait",
-        "name": "David Guetta",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e022f479a6c1825c1f29e0a3d49",
-        "value": "15635279"
+        "trackName": "Viva La Vida",
+        "name": "Coldplay",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02e21cc1db05580b6f2d2a3b6e",
+        "value": "17606275"
     },
     {
         "currentRank": 40,
-        "trackName": "Seven (feat. Latto) (Explicit Ver.)",
-        "name": "Jung Kook",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02741fd4807f442af3f7359316",
-        "value": "15561993"
+        "trackName": "Brand New Dance",
+        "name": "Eminem",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e021633c43b5695735f7de36487",
+        "value": "16835857"
     },
     {
         "currentRank": 41,
-        "trackName": "DEVIL IS A LIE",
-        "name": "Tommy Richman",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02f1708ceacc5e678619364239",
-        "value": "15389982"
+        "trackName": "I Wanna Be Yours",
+        "name": "Arctic Monkeys",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e024ae1c4c5c45aabe565499163",
+        "value": "16768703"
     },
     {
         "currentRank": 42,
-        "trackName": "Lies Lies Lies",
-        "name": "Morgan Wallen",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0237eedb840f9441959db3107e",
-        "value": "15383515"
+        "trackName": "I Don't Wanna Wait",
+        "name": "David Guetta",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e022f479a6c1825c1f29e0a3d49",
+        "value": "16413077"
     },
     {
         "currentRank": 43,
-        "trackName": "HOT TO GO!",
-        "name": "Chappell Roan",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0296fa88fb1789be437d5cb4b6",
-        "value": "15048927"
+        "trackName": "Santa",
+        "name": "Rvssian",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02edf307a421ee80c9262f8dc8",
+        "value": "16332849"
     },
     {
         "currentRank": 44,
-        "trackName": "Alibi (with Pabllo Vittar & Yseult)",
-        "name": "Sevdaliza",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e024ee35e37bc21fe929a4d3605",
-        "value": "14958194"
+        "trackName": "Fuel",
+        "name": "Eminem",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e021633c43b5695735f7de36487",
+        "value": "16228638"
     },
     {
         "currentRank": 45,
-        "trackName": "SI NO ES CONTIGO",
-        "name": "Cris Mj",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02b5a456d85aa63ef612e73edb",
-        "value": "14700120"
+        "trackName": "Tobey (feat. Big Sean and BabyTron)",
+        "name": "Eminem",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e021633c43b5695735f7de36487",
+        "value": "16109082"
     },
     {
         "currentRank": 46,
-        "trackName": "Slow It Down",
-        "name": "Benson Boone",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02cc04ff3e70e146ba9abacf40",
-        "value": "14682990"
-    },
-    {
-        "currentRank": 47,
-        "trackName": "Like That",
-        "name": "Future",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02a46b07c291e6dfdee13b3ee8",
-        "value": "14655827"
-    },
-    {
-        "currentRank": 48,
-        "trackName": "FE!N (feat. Playboi Carti)",
-        "name": "Travis Scott",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02881d8d8378cd01099babcd44",
-        "value": "14584956"
-    },
-    {
-        "currentRank": 49,
-        "trackName": "Stick Season",
-        "name": "Noah Kahan",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e026ee35072df1af802cca09918",
-        "value": "14525443"
-    },
-    {
-        "currentRank": 50,
-        "trackName": "See You Again (feat. Kali Uchis)",
-        "name": "Tyler, The Creator",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e028940ac99f49e44f59e6f7fb3",
-        "value": "14459416"
-    },
-    {
-        "currentRank": 51,
-        "trackName": "Si No Quieres No",
-        "name": "Luis R Conriquez",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e025c7365ca8cfaf7d80136c656",
-        "value": "13957525"
-    },
-    {
-        "currentRank": 52,
-        "trackName": "Tobey (feat. Big Sean and BabyTron)",
-        "name": "Eminem",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02133d7c014b5bec0d7eea09b7",
-        "value": "13882027"
-    },
-    {
-        "currentRank": 53,
         "trackName": "I Can Do It With a Broken Heart",
         "name": "Taylor Swift",
         "displayImageUri": "https://i.scdn.co/image/ab67616d00001e025076e4160d018e378f488c33",
-        "value": "13862630"
+        "value": "16043955"
     },
     {
-        "currentRank": 54,
-        "trackName": "Another Love",
-        "name": "Tom Odell",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e021917a0f3f4152622a040913f",
-        "value": "13796656"
-    },
-    {
-        "currentRank": 55,
-        "trackName": "Saturn",
-        "name": "SZA",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02d70916ee9e40c90380ba5f07",
-        "value": "13777878"
-    },
-    {
-        "currentRank": 56,
-        "trackName": "Kill Bill",
-        "name": "SZA",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e020c471c36970b9406233842a5",
-        "value": "13743498"
-    },
-    {
-        "currentRank": 57,
-        "trackName": "NIGHTS LIKE THIS",
-        "name": "The Kid LAROI",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e022abb30c6296964d5d07458c2",
-        "value": "13526640"
-    },
-    {
-        "currentRank": 58,
-        "trackName": "Flowers",
-        "name": "Miley Cyrus",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02cd222052a2594be29a6616b5",
-        "value": "13509487"
-    },
-    {
-        "currentRank": 59,
-        "trackName": "28",
-        "name": "Zach Bryan",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02647ad18a07e9e939e399e5a1",
-        "value": "13429651"
-    },
-    {
-        "currentRank": 60,
-        "trackName": "Stumblin' In",
-        "name": "CYRIL",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e029a903819d8a5d3c80c47734c",
-        "value": "13333031"
-    },
-    {
-        "currentRank": 61,
-        "trackName": "greedy",
-        "name": "Tate McRae",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0222fd802bc61db666c7c81aa8",
-        "value": "13273730"
-    },
-    {
-        "currentRank": 62,
+        "currentRank": 47,
         "trackName": "Mirame",
         "name": "Blessd",
         "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02b62a2ec2d61d48f34a368144",
-        "value": "13238063"
+        "value": "15982264"
     },
     {
-        "currentRank": 63,
-        "trackName": "Like Crazy",
-        "name": "Jimin",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e022b46078245d0120690eb560d",
-        "value": "13197976"
+        "currentRank": 48,
+        "trackName": "HOT TO GO!",
+        "name": "Chappell Roan",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0296fa88fb1789be437d5cb4b6",
+        "value": "15977183"
     },
     {
-        "currentRank": 64,
-        "trackName": "My Love Mine All Mine",
-        "name": "Mitski",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0234f21d3047d85440dfa37f10",
-        "value": "13185644"
+        "currentRank": 49,
+        "trackName": "Slow It Down",
+        "name": "Benson Boone",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02cc04ff3e70e146ba9abacf40",
+        "value": "15435281"
     },
     {
-        "currentRank": 65,
-        "trackName": "Starboy",
-        "name": "The Weeknd",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e024718e2b124f79258be7bc452",
-        "value": "13025920"
+        "currentRank": 50,
+        "trackName": "Lies Lies Lies",
+        "name": "Morgan Wallen",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0237eedb840f9441959db3107e",
+        "value": "15168646"
     },
     {
-        "currentRank": 66,
-        "trackName": "Evergreen",
-        "name": "Richy Mitch & The Coal Miners",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e021cc17bae5ee17cce117e198a",
-        "value": "13013655"
-    },
-    {
-        "currentRank": 67,
-        "trackName": "Feather",
-        "name": "Sabrina Carpenter",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e020f45623be014a592a5815827",
-        "value": "12963983"
-    },
-    {
-        "currentRank": 68,
-        "trackName": "La Bachata",
-        "name": "Manuel Turizo",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e024dd99565ae6453deab7c26e1",
-        "value": "12955251"
-    },
-    {
-        "currentRank": 69,
-        "trackName": "Nonsense",
-        "name": "Sabrina Carpenter",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02700f7bf79c9f063ad0362bdf",
-        "value": "12867303"
-    },
-    {
-        "currentRank": 70,
-        "trackName": "SORRY 4 THAT MUCH",
-        "name": "Feid",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02746cdeef8d4a4110f1b5af29",
-        "value": "12684277"
-    },
-    {
-        "currentRank": 71,
+        "currentRank": 51,
         "trackName": "Mamushi (feat. Yuki Chiba)",
         "name": "Megan Thee Stallion",
         "displayImageUri": "https://i.scdn.co/image/ab67616d00001e022538afd3580d0424bbe28a01",
-        "value": "12666193"
+        "value": "15093555"
     },
     {
-        "currentRank": 72,
-        "trackName": "Pink Skies",
-        "name": "Zach Bryan",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e021a2c9ac2d39bc5c2e22b9555",
-        "value": "12251206"
+        "currentRank": 52,
+        "trackName": "Trouble",
+        "name": "Eminem",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e021633c43b5695735f7de36487",
+        "value": "14866438"
     },
     {
-        "currentRank": 73,
+        "currentRank": 53,
+        "trackName": "Evil",
+        "name": "Eminem",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e021633c43b5695735f7de36487",
+        "value": "14804135"
+    },
+    {
+        "currentRank": 54,
+        "trackName": "See You Again (feat. Kali Uchis)",
+        "name": "Tyler, The Creator",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e028940ac99f49e44f59e6f7fb3",
+        "value": "14803420"
+    },
+    {
+        "currentRank": 55,
+        "trackName": "SI NO ES CONTIGO",
+        "name": "Cris Mj",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02b5a456d85aa63ef612e73edb",
+        "value": "14716981"
+    },
+    {
+        "currentRank": 56,
+        "trackName": "FE!N (feat. Playboi Carti)",
+        "name": "Travis Scott",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02881d8d8378cd01099babcd44",
+        "value": "14484546"
+    },
+    {
+        "currentRank": 57,
+        "trackName": "Seven (feat. Latto) (Explicit Ver.)",
+        "name": "Jung Kook",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02741fd4807f442af3f7359316",
+        "value": "14388162"
+    },
+    {
+        "currentRank": 58,
+        "trackName": "Stick Season",
+        "name": "Noah Kahan",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e026ee35072df1af802cca09918",
+        "value": "14240164"
+    },
+    {
+        "currentRank": 59,
+        "trackName": "La Bachata",
+        "name": "Manuel Turizo",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e024dd99565ae6453deab7c26e1",
+        "value": "14166493"
+    },
+    {
+        "currentRank": 60,
+        "trackName": "Did It First (with Central Cee)",
+        "name": "Ice Spice",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02dc9f83f20038d54b78c48aeb",
+        "value": "14131729"
+    },
+    {
+        "currentRank": 61,
+        "trackName": "DEVIL IS A LIE",
+        "name": "Tommy Richman",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02f1708ceacc5e678619364239",
+        "value": "14116472"
+    },
+    {
+        "currentRank": 62,
+        "trackName": "Flowers",
+        "name": "Miley Cyrus",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02cd222052a2594be29a6616b5",
+        "value": "13966353"
+    },
+    {
+        "currentRank": 63,
+        "trackName": "Lucifer",
+        "name": "Eminem",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e021633c43b5695735f7de36487",
+        "value": "13939297"
+    },
+    {
+        "currentRank": 64,
+        "trackName": "Si No Quieres No",
+        "name": "Luis R Conriquez",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e025c7365ca8cfaf7d80136c656",
+        "value": "13930231"
+    },
+    {
+        "currentRank": 65,
         "trackName": "ADIVINO",
         "name": "Myke Towers",
         "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02b41f34aa51be675c5cfd3d94",
-        "value": "12232846"
+        "value": "13744374"
+    },
+    {
+        "currentRank": 66,
+        "trackName": "Kill Bill",
+        "name": "SZA",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e020c471c36970b9406233842a5",
+        "value": "13742199"
+    },
+    {
+        "currentRank": 67,
+        "trackName": "Like That",
+        "name": "Future",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02a46b07c291e6dfdee13b3ee8",
+        "value": "13738438"
+    },
+    {
+        "currentRank": 68,
+        "trackName": "Tauba Tauba (From \"Bad Newz\")",
+        "name": "Karan Aujla",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e025960a3f9af07c54eda5c6b3b",
+        "value": "13668636"
+    },
+    {
+        "currentRank": 69,
+        "trackName": "Another Love",
+        "name": "Tom Odell",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e021917a0f3f4152622a040913f",
+        "value": "13643373"
+    },
+    {
+        "currentRank": 70,
+        "trackName": "Stumblin' In",
+        "name": "CYRIL",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e029a903819d8a5d3c80c47734c",
+        "value": "13338112"
+    },
+    {
+        "currentRank": 71,
+        "trackName": "Somebody Save Me",
+        "name": "Eminem",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e021633c43b5695735f7de36487",
+        "value": "13268780"
+    },
+    {
+        "currentRank": 72,
+        "trackName": "greedy",
+        "name": "Tate McRae",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0222fd802bc61db666c7c81aa8",
+        "value": "13254582"
+    },
+    {
+        "currentRank": 73,
+        "trackName": "Saturn",
+        "name": "SZA",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02d70916ee9e40c90380ba5f07",
+        "value": "13130676"
     },
     {
         "currentRank": 74,
-        "trackName": "Yellow",
-        "name": "Coldplay",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e029164bafe9aaa168d93f4816a",
-        "value": "12157015"
+        "trackName": "NIGHTS LIKE THIS",
+        "name": "The Kid LAROI",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e022abb30c6296964d5d07458c2",
+        "value": "13017862"
     },
     {
         "currentRank": 75,
-        "trackName": "KEHLANI",
-        "name": "Jordan Adetunji",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02f2cd132495d61b0da6a900d2",
-        "value": "12090204"
+        "trackName": "Antichrist",
+        "name": "Eminem",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e021633c43b5695735f7de36487",
+        "value": "13012310"
     },
     {
         "currentRank": 76,
-        "trackName": "I Remember Everything (feat. Kacey Musgraves)",
-        "name": "Zach Bryan",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02e5a25ed08d1e7e0fbb440cef",
-        "value": "12083462"
+        "trackName": "My Love Mine All Mine",
+        "name": "Mitski",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0234f21d3047d85440dfa37f10",
+        "value": "12985174"
     },
     {
         "currentRank": 77,
-        "trackName": "WILDFLOWER",
-        "name": "Billie Eilish",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0271d62ea7ea8a5be92d3c1f62",
-        "value": "12043764"
-    },
-    {
-        "currentRank": 78,
-        "trackName": "Blinding Lights",
-        "name": "The Weeknd",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e028863bc11d2aa12b54f5aeb36",
-        "value": "11991246"
-    },
-    {
-        "currentRank": 79,
-        "trackName": "Snooze",
-        "name": "SZA",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0270dbc9f47669d120ad874ec1",
-        "value": "11926758"
-    },
-    {
-        "currentRank": 80,
-        "trackName": "Riptide",
-        "name": "Vance Joy",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02a9929deb093a6617d2493b03",
-        "value": "11715951"
-    },
-    {
-        "currentRank": 81,
-        "trackName": "QLONA",
-        "name": "KAROL G",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02d026bf9d7780f6a1267b4d03",
-        "value": "11709988"
-    },
-    {
-        "currentRank": 82,
-        "trackName": "Love Me Again",
-        "name": "V",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e022f1a5b69c2bd76474bca8035",
-        "value": "11691258"
-    },
-    {
-        "currentRank": 83,
         "trackName": "Take on Me",
         "name": "a-ha",
         "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02e8dd4db47e7177c63b0b7d53",
-        "value": "11654522"
+        "value": "12946462"
+    },
+    {
+        "currentRank": 78,
+        "trackName": "Starboy",
+        "name": "The Weeknd",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e024718e2b124f79258be7bc452",
+        "value": "12913049"
+    },
+    {
+        "currentRank": 79,
+        "trackName": "28",
+        "name": "Zach Bryan",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02647ad18a07e9e939e399e5a1",
+        "value": "12768661"
+    },
+    {
+        "currentRank": 80,
+        "trackName": "Like Crazy",
+        "name": "Jimin",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e022b46078245d0120690eb560d",
+        "value": "12651173"
+    },
+    {
+        "currentRank": 81,
+        "trackName": "Nonsense",
+        "name": "Sabrina Carpenter",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02700f7bf79c9f063ad0362bdf",
+        "value": "12522106"
+    },
+    {
+        "currentRank": 82,
+        "trackName": "Yellow",
+        "name": "Coldplay",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e029164bafe9aaa168d93f4816a",
+        "value": "12460293"
+    },
+    {
+        "currentRank": 83,
+        "trackName": "Hips Don't Lie (feat. Wyclef Jean)",
+        "name": "Shakira",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0227ddd747545c0d0cfe7595fa",
+        "value": "12417457"
     },
     {
         "currentRank": 84,
-        "trackName": "Magnetic",
-        "name": "ILLIT",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02f037c5fb9de6c78726cb8e2c",
-        "value": "11621364"
+        "trackName": "Feather",
+        "name": "Sabrina Carpenter",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e020f45623be014a592a5815827",
+        "value": "12368415"
     },
     {
         "currentRank": 85,
-        "trackName": "Iris",
-        "name": "The Goo Goo Dolls",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02eda9478c39a21e1cdc6609ca",
-        "value": "11529539"
+        "trackName": "KEHLANI",
+        "name": "Jordan Adetunji",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02f2cd132495d61b0da6a900d2",
+        "value": "12340312"
     },
     {
         "currentRank": 86,
-        "trackName": "I Ain't Worried",
-        "name": "OneRepublic",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02379171811d7a467a53e3835e",
-        "value": "11490556"
-    },
-    {
-        "currentRank": 87,
-        "trackName": "Scared To Start",
-        "name": "Michael Marcagi",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0251ef67c49732e45cd2b26fbe",
-        "value": "11481952"
-    },
-    {
-        "currentRank": 88,
-        "trackName": "Something Just Like This",
-        "name": "The Chainsmokers",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e020c13d3d5a503c84fcc60ae94",
-        "value": "11468304"
-    },
-    {
-        "currentRank": 89,
-        "trackName": "Don't Stop Believin' (2022 Remaster)",
-        "name": "Journey",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0263fa4751355b66f236943275",
-        "value": "11464905"
-    },
-    {
-        "currentRank": 90,
-        "trackName": "Unwritten",
-        "name": "Natasha Bedingfield",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02b337e1ca6629a53c66a3b0d4",
-        "value": "11309319"
-    },
-    {
-        "currentRank": 91,
-        "trackName": "Night Changes",
-        "name": "One Direction",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02d304ba2d71de306812eebaf4",
-        "value": "11265545"
-    },
-    {
-        "currentRank": 92,
-        "trackName": "I Love You So",
-        "name": "The Walters",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e029214ff0109a0e062f8a6cf0f",
-        "value": "11262248"
-    },
-    {
-        "currentRank": 93,
         "trackName": "APAGA EL CEL",
         "name": "FloyyMenor",
         "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02c44bb461e0efd6a5b88e2dec",
-        "value": "11245146"
+        "value": "12265053"
+    },
+    {
+        "currentRank": 87,
+        "trackName": "Iris",
+        "name": "The Goo Goo Dolls",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02eda9478c39a21e1cdc6609ca",
+        "value": "12240401"
+    },
+    {
+        "currentRank": 88,
+        "trackName": "WILDFLOWER",
+        "name": "Billie Eilish",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0271d62ea7ea8a5be92d3c1f62",
+        "value": "12129593"
+    },
+    {
+        "currentRank": 89,
+        "trackName": "Blinding Lights",
+        "name": "The Weeknd",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e028863bc11d2aa12b54f5aeb36",
+        "value": "12113651"
+    },
+    {
+        "currentRank": 90,
+        "trackName": "Evergreen",
+        "name": "Richy Mitch & The Coal Miners",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e021cc17bae5ee17cce117e198a",
+        "value": "12108996"
+    },
+    {
+        "currentRank": 91,
+        "trackName": "Unwritten",
+        "name": "Natasha Bedingfield",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02b337e1ca6629a53c66a3b0d4",
+        "value": "11977111"
+    },
+    {
+        "currentRank": 92,
+        "trackName": "Something Just Like This",
+        "name": "The Chainsmokers",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e020c13d3d5a503c84fcc60ae94",
+        "value": "11969925"
+    },
+    {
+        "currentRank": 93,
+        "trackName": "SORRY 4 THAT MUCH",
+        "name": "Feid",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02746cdeef8d4a4110f1b5af29",
+        "value": "11953742"
     },
     {
         "currentRank": 94,
-        "trackName": "Danza Kuduro",
-        "name": "Don Omar",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e024640a26eb27649006be29a94",
-        "value": "11198075"
+        "trackName": "360",
+        "name": "Charli xcx",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0288e3822cccfb8f2832c70c2e",
+        "value": "11922922"
     },
     {
         "currentRank": 95,
-        "trackName": "I'm Good (Blue)",
-        "name": "David Guetta",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02933c036cd61cd40d3f17a9c4",
-        "value": "11195787"
+        "trackName": "Scared To Start",
+        "name": "Michael Marcagi",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0251ef67c49732e45cd2b26fbe",
+        "value": "11910064"
     },
     {
         "currentRank": 96,
-        "trackName": "Sunflower - Spider-Man: Into the Spider-Verse",
-        "name": "Post Malone",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e029478c87599550dd73bfa7e02",
-        "value": "11141880"
+        "trackName": "QLONA",
+        "name": "KAROL G",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02d026bf9d7780f6a1267b4d03",
+        "value": "11878940"
     },
     {
         "currentRank": 97,
-        "trackName": "Someone You Loved",
-        "name": "Lewis Capaldi",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02fc2101e6889d6ce9025f85f2",
-        "value": "11071455"
+        "trackName": "Snooze",
+        "name": "SZA",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0270dbc9f47669d120ad874ec1",
+        "value": "11872649"
     },
     {
         "currentRank": 98,
         "trackName": "LA PATRULLA",
         "name": "Peso Pluma",
         "displayImageUri": "https://i.scdn.co/image/ab67616d00001e022690127e1d6cd0aa35cc353b",
-        "value": "11060341"
+        "value": "11846223"
     },
     {
         "currentRank": 99,
-        "trackName": "STAY (with Justin Bieber)",
-        "name": "The Kid LAROI",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02b4d59e6fa7e5e7cbc57ac33a",
-        "value": "11012601"
+        "trackName": "Night Changes",
+        "name": "One Direction",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02d304ba2d71de306812eebaf4",
+        "value": "11842573"
     },
     {
         "currentRank": 100,
-        "trackName": "Say You Won't Let Go",
-        "name": "James Arthur",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0220beb61f61fcbeb33b10a9ab",
-        "value": "10971310"
+        "trackName": "I Love You So",
+        "name": "The Walters",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e029214ff0109a0e062f8a6cf0f",
+        "value": "11687870"
     },
     {
         "currentRank": 101,
-        "trackName": "Without Me",
-        "name": "Eminem",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e026ca5c90113b30c3c43ffb8f4",
-        "value": "10954522"
+        "trackName": "I'm Good (Blue)",
+        "name": "David Guetta",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02933c036cd61cd40d3f17a9c4",
+        "value": "11610560"
     },
     {
         "currentRank": 102,
-        "trackName": "Nasty",
-        "name": "Tinashe",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0299068b5c52ec35ec2db977a7",
-        "value": "10845798"
+        "trackName": "Guilty Conscience 2",
+        "name": "Eminem",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e021633c43b5695735f7de36487",
+        "value": "11580714"
     },
     {
         "currentRank": 103,
-        "trackName": "Nobody Gets Me",
-        "name": "SZA",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0270dbc9f47669d120ad874ec1",
-        "value": "10786988"
+        "trackName": "Don't Stop Believin' (2022 Remaster)",
+        "name": "Journey",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0263fa4751355b66f236943275",
+        "value": "11558435"
     },
     {
         "currentRank": 104,
-        "trackName": "Pedro",
-        "name": "Jaxomy",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02df8680015ddf76e5c444849f",
-        "value": "10773374"
-    },
-    {
-        "currentRank": 105,
-        "trackName": "Pink + White",
-        "name": "Frank Ocean",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02c5649add07ed3720be9d5526",
-        "value": "10720431"
-    },
-    {
-        "currentRank": 106,
-        "trackName": "GIRLS",
-        "name": "The Kid LAROI",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02c8af7237bb25ad59488944c1",
-        "value": "10707532"
-    },
-    {
-        "currentRank": 107,
-        "trackName": "Every Breath You Take",
-        "name": "The Police",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02c8e97cafeb2acb85b21a777e",
-        "value": "10701282"
-    },
-    {
-        "currentRank": 108,
-        "trackName": "Shut up My Moms Calling",
-        "name": "Hotel Ugly",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02350ab7a839c04bfd5225a9f5",
-        "value": "10691569"
-    },
-    {
-        "currentRank": 109,
-        "trackName": "lovely (with Khalid)",
-        "name": "Billie Eilish",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e028a3f0a3ca7929dea23cd274c",
-        "value": "10678358"
-    },
-    {
-        "currentRank": 110,
-        "trackName": "Die For You",
-        "name": "The Weeknd",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02a048415db06a5b6fa7ec4e1a",
-        "value": "10640022"
-    },
-    {
-        "currentRank": 111,
         "trackName": "Watermelon Sugar",
         "name": "Harry Styles",
         "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0277fdcfda6535601aff081b6a",
-        "value": "10633051"
+        "value": "11517032"
     },
     {
-        "currentRank": 112,
-        "trackName": "Red Wine Supernova",
-        "name": "Chappell Roan",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0296fa88fb1789be437d5cb4b6",
-        "value": "10632763"
+        "currentRank": 105,
+        "trackName": "Riptide",
+        "name": "Vance Joy",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02a9929deb093a6617d2493b03",
+        "value": "11441577"
     },
     {
-        "currentRank": 113,
-        "trackName": "A Sky Full of Stars",
-        "name": "Coldplay",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02e5a95573f1b91234630fd2cf",
-        "value": "10619712"
+        "currentRank": 106,
+        "trackName": "I Remember Everything (feat. Kacey Musgraves)",
+        "name": "Zach Bryan",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02e5a25ed08d1e7e0fbb440cef",
+        "value": "11367095"
     },
     {
-        "currentRank": 114,
-        "trackName": "360",
-        "name": "Charli xcx",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0288e3822cccfb8f2832c70c2e",
-        "value": "10615405"
+        "currentRank": 107,
+        "trackName": "STAY (with Justin Bieber)",
+        "name": "The Kid LAROI",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02b4d59e6fa7e5e7cbc57ac33a",
+        "value": "11355820"
     },
     {
-        "currentRank": 115,
+        "currentRank": 108,
+        "trackName": "Pink + White",
+        "name": "Frank Ocean",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02c5649add07ed3720be9d5526",
+        "value": "11351931"
+    },
+    {
+        "currentRank": 109,
         "trackName": "In the End",
         "name": "Linkin Park",
         "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02e2f039481babe23658fc719a",
-        "value": "10590366"
+        "value": "11326785"
     },
     {
-        "currentRank": 116,
+        "currentRank": 110,
+        "trackName": "Without Me",
+        "name": "Eminem",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e026ca5c90113b30c3c43ffb8f4",
+        "value": "11213167"
+    },
+    {
+        "currentRank": 111,
+        "trackName": "Pink Skies",
+        "name": "Zach Bryan",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e021a2c9ac2d39bc5c2e22b9555",
+        "value": "11081330"
+    },
+    {
+        "currentRank": 112,
+        "trackName": "Magnetic",
+        "name": "ILLIT",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02f037c5fb9de6c78726cb8e2c",
+        "value": "11036941"
+    },
+    {
+        "currentRank": 113,
         "trackName": "Have You Ever Seen The Rain",
         "name": "Creedence Clearwater Revival",
         "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0251f311c2fb06ad2789e3ff91",
-        "value": "10500093"
+        "value": "11034820"
+    },
+    {
+        "currentRank": 114,
+        "trackName": "Say You Won't Let Go",
+        "name": "James Arthur",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0220beb61f61fcbeb33b10a9ab",
+        "value": "11030794"
+    },
+    {
+        "currentRank": 115,
+        "trackName": "Red Wine Supernova",
+        "name": "Chappell Roan",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0296fa88fb1789be437d5cb4b6",
+        "value": "10980042"
+    },
+    {
+        "currentRank": 116,
+        "trackName": "Love Me Again",
+        "name": "V",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e022f1a5b69c2bd76474bca8035",
+        "value": "10932069"
     },
     {
         "currentRank": 117,
-        "trackName": "Unforgettable",
-        "name": "French Montana",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e028a31195a371b2233456f6c07",
-        "value": "10391455"
+        "trackName": "Danza Kuduro",
+        "name": "Don Omar",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e024640a26eb27649006be29a94",
+        "value": "10926493"
     },
     {
         "currentRank": 118,
-        "trackName": "the boy is mine",
-        "name": "Ariana Grande",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e028b58d20f1b77295730db15b4",
-        "value": "10358198"
-    },
-    {
-        "currentRank": 119,
-        "trackName": "Counting Stars",
-        "name": "OneRepublic",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e029e2f95ae77cf436017ada9cb",
-        "value": "10335879"
-    },
-    {
-        "currentRank": 120,
-        "trackName": "Locked out of Heaven",
-        "name": "Bruno Mars",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02926f43e7cce571e62720fd46",
-        "value": "10326372"
-    },
-    {
-        "currentRank": 121,
-        "trackName": "Hips Don't Lie (feat. Wyclef Jean)",
-        "name": "Shakira",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0227ddd747545c0d0cfe7595fa",
-        "value": "10308903"
-    },
-    {
-        "currentRank": 122,
-        "trackName": "What Was I Made For? [From The Motion Picture \"Barbie\"]",
-        "name": "Billie Eilish",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02ed317ec13d3de9e01fb99c9e",
-        "value": "10267005"
-    },
-    {
-        "currentRank": 123,
-        "trackName": "Summertime Sadness",
-        "name": "Lana Del Rey",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02f894be72a77b1488292672c7",
-        "value": "10255592"
-    },
-    {
-        "currentRank": 124,
-        "trackName": "Heat Waves",
-        "name": "Glass Animals",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02712701c5e263efc8726b1464",
-        "value": "10246649"
-    },
-    {
-        "currentRank": 125,
-        "trackName": "Standing Next to You",
-        "name": "Jung Kook",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02741fd4807f442af3f7359316",
-        "value": "10220261"
-    },
-    {
-        "currentRank": 126,
-        "trackName": "fukumean",
-        "name": "Gunna",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02017d5e26552345c4b1575b6c",
-        "value": "10217708"
-    },
-    {
-        "currentRank": 127,
-        "trackName": "Take Me to Church",
-        "name": "Hozier",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e024ca68d59a4a29c856a4a39c2",
-        "value": "10162685"
-    },
-    {
-        "currentRank": 128,
-        "trackName": "PERRO NEGRO",
-        "name": "Bad Bunny",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e027b1fc51ff3257b5286a1ecec",
-        "value": "10158733"
-    },
-    {
-        "currentRank": 129,
-        "trackName": "Everybody Wants To Rule The World",
-        "name": "Tears For Fears",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0222463d6939fec9e17b2a6235",
-        "value": "10157169"
-    },
-    {
-        "currentRank": 130,
-        "trackName": "One Dance",
-        "name": "Drake",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e029416ed64daf84936d89e671c",
-        "value": "10047136"
-    },
-    {
-        "currentRank": 131,
-        "trackName": "AMARGURA",
-        "name": "KAROL G",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0282de1ca074ae63cb18fce335",
-        "value": "10015465"
-    },
-    {
-        "currentRank": 132,
-        "trackName": "Last Night",
-        "name": "Morgan Wallen",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02705079df9a25a28b452c1fc9",
-        "value": "10001339"
-    },
-    {
-        "currentRank": 133,
-        "trackName": "Es un Secreto",
-        "name": "Plan B",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02913ef74e0272d688c512200b",
-        "value": "9960428"
-    },
-    {
-        "currentRank": 134,
-        "trackName": "BLUE",
-        "name": "Billie Eilish",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0271d62ea7ea8a5be92d3c1f62",
-        "value": "9948337"
-    },
-    {
-        "currentRank": 135,
-        "trackName": "Type Shit",
-        "name": "Future",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02a46b07c291e6dfdee13b3ee8",
-        "value": "9935519"
-    },
-    {
-        "currentRank": 136,
-        "trackName": "Can't Hold Us (feat. Ray Dalton)",
-        "name": "Macklemore & Ryan Lewis",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e022a6b364528b128a4a17d100d",
-        "value": "9919796"
-    },
-    {
-        "currentRank": 137,
-        "trackName": "Daylight",
-        "name": "David Kushner",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0295ca6a9b4083a86c149934ae",
-        "value": "9897080"
-    },
-    {
-        "currentRank": 138,
-        "trackName": "L\u2019AMOUR DE MA VIE",
-        "name": "Billie Eilish",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0271d62ea7ea8a5be92d3c1f62",
-        "value": "9868343"
-    },
-    {
-        "currentRank": 139,
-        "trackName": "The Scientist",
-        "name": "Coldplay",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02de09e02aa7febf30b7c02d82",
-        "value": "9803085"
-    },
-    {
-        "currentRank": 140,
-        "trackName": "Volver Al Futuro",
-        "name": "Oscar Maydon",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0206116ae20d0a4c09d65c7d1d",
-        "value": "9800413"
-    },
-    {
-        "currentRank": 141,
-        "trackName": "Something in the Orange",
-        "name": "Zach Bryan",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02b2b6670e3aca9bcd55fbabbb",
-        "value": "9798784"
-    },
-    {
-        "currentRank": 142,
-        "trackName": "Training Season",
-        "name": "Dua Lipa",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02778c1e4660aa23f6728b32a1",
-        "value": "9774084"
-    },
-    {
-        "currentRank": 143,
-        "trackName": "Pour Me A Drink (Feat. Blake Shelton)",
-        "name": "Post Malone",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e020e6e0f5fad0f7419d873acba",
-        "value": "9773094"
-    },
-    {
-        "currentRank": 144,
-        "trackName": "Somewhere Only We Know",
-        "name": "Keane",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e028d175a2eed88b5cd85dab5aa",
-        "value": "9662566"
-    },
-    {
-        "currentRank": 145,
-        "trackName": "euphoria",
-        "name": "Kendrick Lamar",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e027587213b1be294ac4000f648",
-        "value": "9630929"
-    },
-    {
-        "currentRank": 146,
         "trackName": "LA FALDA",
         "name": "Myke Towers",
         "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02c75c054b6b209b0b91d818d8",
-        "value": "9627611"
+        "value": "10818264"
     },
     {
-        "currentRank": 147,
-        "trackName": "All The Stars (with SZA)",
-        "name": "Kendrick Lamar",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02c027ad28821777b00dcaa888",
-        "value": "9597226"
+        "currentRank": 119,
+        "trackName": "Someone You Loved",
+        "name": "Lewis Capaldi",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02fc2101e6889d6ce9025f85f2",
+        "value": "10802244"
     },
     {
-        "currentRank": 148,
-        "trackName": "Tauba Tauba (From \"Bad Newz\")",
-        "name": "Karan Aujla",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e025960a3f9af07c54eda5c6b3b",
-        "value": "9586376"
+        "currentRank": 120,
+        "trackName": "Every Breath You Take",
+        "name": "The Police",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02c8e97cafeb2acb85b21a777e",
+        "value": "10754583"
     },
     {
-        "currentRank": 149,
-        "trackName": "505",
-        "name": "Arctic Monkeys",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e020c8ac83035e9588e8ad34b90",
-        "value": "9571428"
+        "currentRank": 121,
+        "trackName": "fukumean",
+        "name": "Gunna",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02017d5e26552345c4b1575b6c",
+        "value": "10740739"
     },
     {
-        "currentRank": 150,
-        "trackName": "Mr. Brightside",
-        "name": "The Killers",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02ccdddd46119a4ff53eaf1f5d",
-        "value": "9541339"
+        "currentRank": 122,
+        "trackName": "A Sky Full of Stars",
+        "name": "Coldplay",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02e5a95573f1b91234630fd2cf",
+        "value": "10712965"
     },
     {
-        "currentRank": 151,
-        "trackName": "Apocalypse",
-        "name": "Cigarettes After Sex",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0212b69bf576f5e80291f75161",
-        "value": "9534608"
+        "currentRank": 123,
+        "trackName": "Die For You",
+        "name": "The Weeknd",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02a048415db06a5b6fa7ec4e1a",
+        "value": "10647507"
     },
     {
-        "currentRank": 152,
-        "trackName": "Water",
-        "name": "Tyla",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02d20231861e86a6f74ef2393e",
-        "value": "9481947"
+        "currentRank": 124,
+        "trackName": "Sunflower - Spider-Man: Into the Spider-Verse",
+        "name": "Post Malone",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e029478c87599550dd73bfa7e02",
+        "value": "10597325"
     },
     {
-        "currentRank": 153,
-        "trackName": "Party In The U.S.A.",
-        "name": "Miley Cyrus",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02d6c3ad6a2a27471e1d5e8103",
-        "value": "9481625"
+        "currentRank": 125,
+        "trackName": "Temporary",
+        "name": "Eminem",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e021633c43b5695735f7de36487",
+        "value": "10551371"
     },
     {
-        "currentRank": 154,
-        "trackName": "We Found Love",
-        "name": "Rihanna",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02bef074de9ca825bddaeb9f46",
-        "value": "9410636"
+        "currentRank": 126,
+        "trackName": "Pedro",
+        "name": "Jaxomy",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02df8680015ddf76e5c444849f",
+        "value": "10548724"
     },
     {
-        "currentRank": 155,
+        "currentRank": 127,
+        "trackName": "Unforgettable",
+        "name": "French Montana",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e028a31195a371b2233456f6c07",
+        "value": "10507598"
+    },
+    {
+        "currentRank": 128,
+        "trackName": "I Ain't Worried",
+        "name": "OneRepublic",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02d9b914089ee1525387783989",
+        "value": "10491346"
+    },
+    {
+        "currentRank": 129,
+        "trackName": "Shut up My Moms Calling",
+        "name": "Hotel Ugly",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02350ab7a839c04bfd5225a9f5",
+        "value": "10481340"
+    },
+    {
+        "currentRank": 130,
+        "trackName": "Everybody Wants To Rule The World",
+        "name": "Tears For Fears",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0222463d6939fec9e17b2a6235",
+        "value": "10430147"
+    },
+    {
+        "currentRank": 131,
+        "trackName": "Can't Hold Us (feat. Ray Dalton)",
+        "name": "Macklemore & Ryan Lewis",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e022a6b364528b128a4a17d100d",
+        "value": "10428510"
+    },
+    {
+        "currentRank": 132,
+        "trackName": "Locked out of Heaven",
+        "name": "Bruno Mars",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02926f43e7cce571e62720fd46",
+        "value": "10401855"
+    },
+    {
+        "currentRank": 133,
+        "trackName": "Take Me to Church",
+        "name": "Hozier",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e024ca68d59a4a29c856a4a39c2",
+        "value": "10385799"
+    },
+    {
+        "currentRank": 134,
+        "trackName": "Nobody Gets Me",
+        "name": "SZA",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0270dbc9f47669d120ad874ec1",
+        "value": "10383681"
+    },
+    {
+        "currentRank": 135,
+        "trackName": "Counting Stars",
+        "name": "OneRepublic",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e029e2f95ae77cf436017ada9cb",
+        "value": "10371598"
+    },
+    {
+        "currentRank": 136,
+        "trackName": "Road Rage",
+        "name": "Eminem",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e021633c43b5695735f7de36487",
+        "value": "10313833"
+    },
+    {
+        "currentRank": 137,
+        "trackName": "PERRO NEGRO",
+        "name": "Bad Bunny",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e027b1fc51ff3257b5286a1ecec",
+        "value": "10291296"
+    },
+    {
+        "currentRank": 138,
+        "trackName": "AMARGURA",
+        "name": "KAROL G",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0282de1ca074ae63cb18fce335",
+        "value": "10286242"
+    },
+    {
+        "currentRank": 139,
+        "trackName": "lovely (with Khalid)",
+        "name": "Billie Eilish",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e028a3f0a3ca7929dea23cd274c",
+        "value": "10257881"
+    },
+    {
+        "currentRank": 140,
+        "trackName": "Summertime Sadness",
+        "name": "Lana Del Rey",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02f894be72a77b1488292672c7",
+        "value": "10254373"
+    },
+    {
+        "currentRank": 141,
+        "trackName": "The Scientist",
+        "name": "Coldplay",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02de09e02aa7febf30b7c02d82",
+        "value": "10135160"
+    },
+    {
+        "currentRank": 142,
+        "trackName": "Es un Secreto",
+        "name": "Plan B",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02913ef74e0272d688c512200b",
+        "value": "10058314"
+    },
+    {
+        "currentRank": 143,
         "trackName": "Give Me Everything (feat. Nayer)",
         "name": "Pitbull",
         "displayImageUri": "https://i.scdn.co/image/ab67616d00001e021dc7483a9fcfce54822a2f19",
-        "value": "9329886"
+        "value": "10017804"
     },
     {
-        "currentRank": 156,
-        "trackName": "Just the Way You Are",
-        "name": "Bruno Mars",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02f6b55ca93bd33211227b502b",
-        "value": "9323743"
+        "currentRank": 144,
+        "trackName": "GIRLS",
+        "name": "The Kid LAROI",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02c8af7237bb25ad59488944c1",
+        "value": "9987800"
     },
     {
-        "currentRank": 157,
-        "trackName": "Pink Pony Club",
-        "name": "Chappell Roan",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0296fa88fb1789be437d5cb4b6",
-        "value": "9203058"
+        "currentRank": 145,
+        "trackName": "Somewhere Only We Know",
+        "name": "Keane",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e028d175a2eed88b5cd85dab5aa",
+        "value": "9972629"
     },
     {
-        "currentRank": 158,
-        "trackName": "Fortunate Son",
-        "name": "Creedence Clearwater Revival",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e029f39192f9f8ca1c90847b3e5",
-        "value": "9202079"
+        "currentRank": 146,
+        "trackName": "One Dance",
+        "name": "Drake",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e029416ed64daf84936d89e671c",
+        "value": "9969315"
     },
     {
-        "currentRank": 159,
-        "trackName": "Mockingbird",
-        "name": "Eminem",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02726d48d93d02e1271774f023",
-        "value": "9161110"
+        "currentRank": 147,
+        "trackName": "Type Shit",
+        "name": "Future",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02a46b07c291e6dfdee13b3ee8",
+        "value": "9961176"
     },
     {
-        "currentRank": 160,
-        "trackName": "Sure Thing",
-        "name": "Miguel",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02d5a8395b0d80b8c48a5d851c",
-        "value": "9108651"
-    },
-    {
-        "currentRank": 161,
-        "trackName": "Paint The Town Red",
-        "name": "Doja Cat",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02a840032f14ab22da396e43cb",
-        "value": "9088253"
-    },
-    {
-        "currentRank": 162,
-        "trackName": "Demons",
-        "name": "Imagine Dragons",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02b2b2747c89d2157b0b29fb6a",
-        "value": "9059539"
-    },
-    {
-        "currentRank": 163,
-        "trackName": "goosebumps",
-        "name": "Travis Scott",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02f54b99bf27cda88f4a7403ce",
-        "value": "9056637"
-    },
-    {
-        "currentRank": 164,
-        "trackName": "The Sound of Silence - CYRIL Remix",
-        "name": "Disturbed",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e025ae1ccf0db0174bcbde1777e",
-        "value": "9052188"
-    },
-    {
-        "currentRank": 165,
-        "trackName": "Believer",
-        "name": "Imagine Dragons",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e025675e83f707f1d7271e5cf8a",
-        "value": "9046133"
-    },
-    {
-        "currentRank": 166,
-        "trackName": "Lovers Rock",
-        "name": "TV Girl",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02e1bc1af856b42dd7fdba9f84",
-        "value": "9028683"
-    },
-    {
-        "currentRank": 167,
-        "trackName": "Guilty as Sin?",
-        "name": "Taylor Swift",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e025076e4160d018e378f488c33",
-        "value": "8989491"
-    },
-    {
-        "currentRank": 168,
-        "trackName": "Houdini",
+        "currentRank": 148,
+        "trackName": "Training Season",
         "name": "Dua Lipa",
         "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02778c1e4660aa23f6728b32a1",
-        "value": "8981660"
+        "value": "9903217"
     },
     {
-        "currentRank": 169,
-        "trackName": "Cold Heart - PNAU Remix",
-        "name": "Elton John",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02523458c391fe8180a19a1069",
-        "value": "8955736"
+        "currentRank": 149,
+        "trackName": "Mr. Brightside",
+        "name": "The Killers",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02ccdddd46119a4ff53eaf1f5d",
+        "value": "9806989"
     },
     {
-        "currentRank": 170,
-        "trackName": "Madonna",
-        "name": "Natanael Cano",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02fcd2820c9b859adc64a64b88",
-        "value": "8937350"
+        "currentRank": 150,
+        "trackName": "Standing Next to You",
+        "name": "Jung Kook",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02741fd4807f442af3f7359316",
+        "value": "9763121"
     },
     {
-        "currentRank": 171,
-        "trackName": "Revenge",
-        "name": "XXXTENTACION",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02203c89bd4391468eea4cc3f5",
-        "value": "8935780"
+        "currentRank": 151,
+        "trackName": "Pour Me A Drink (Feat. Blake Shelton)",
+        "name": "Post Malone",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e020e6e0f5fad0f7419d873acba",
+        "value": "9715260"
     },
     {
-        "currentRank": 172,
-        "trackName": "September",
-        "name": "Earth, Wind & Fire",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e020faf2fc17446651865ce2282",
-        "value": "8898986"
+        "currentRank": 152,
+        "trackName": "the boy is mine",
+        "name": "Ariana Grande",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e028b58d20f1b77295730db15b4",
+        "value": "9714937"
     },
     {
-        "currentRank": 173,
-        "trackName": "Cowgirls (feat. ERNEST)",
-        "name": "Morgan Wallen",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02705079df9a25a28b452c1fc9",
-        "value": "8870447"
+        "currentRank": 153,
+        "trackName": "Heat Waves",
+        "name": "Glass Animals",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02712701c5e263efc8726b1464",
+        "value": "9711807"
     },
     {
-        "currentRank": 174,
-        "trackName": "Close To You",
-        "name": "Gracie Abrams",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e026e2101520787791370f4a96b",
-        "value": "8848557"
-    },
-    {
-        "currentRank": 175,
-        "trackName": "Down Bad",
-        "name": "Taylor Swift",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e025076e4160d018e378f488c33",
-        "value": "8809059"
-    },
-    {
-        "currentRank": 176,
-        "trackName": "Highway to Hell",
-        "name": "AC/DC",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0251c02a77d09dfcd53c8676d0",
-        "value": "8798449"
-    },
-    {
-        "currentRank": 177,
-        "trackName": "Dreams - 2004 Remaster",
-        "name": "Fleetwood Mac",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02e52a59a28efa4773dd2bfe1b",
-        "value": "8792728"
-    },
-    {
-        "currentRank": 178,
-        "trackName": "Sajni (From \"Laapataa Ladies\")",
-        "name": "Ram Sampath",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02d5f4378b1ffc9119fdc7306d",
-        "value": "8769506"
-    },
-    {
-        "currentRank": 179,
-        "trackName": "Your Love",
-        "name": "The Outfield",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02cd7e670a91d0263d2ee1d8a7",
-        "value": "8768027"
-    },
-    {
-        "currentRank": 180,
-        "trackName": "Romantic Homicide",
-        "name": "d4vd",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02bd1a52b3d5903ee01c216da0",
-        "value": "8741111"
-    },
-    {
-        "currentRank": 181,
-        "trackName": "Young And Beautiful",
-        "name": "Lana Del Rey",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02d7fb3e4c63020039d1cff6b2",
-        "value": "8710546"
-    },
-    {
-        "currentRank": 182,
-        "trackName": "When I Was Your Man",
-        "name": "Bruno Mars",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02926f43e7cce571e62720fd46",
-        "value": "8632789"
-    },
-    {
-        "currentRank": 183,
+        "currentRank": 154,
         "trackName": "Gangsta's Paradise",
         "name": "Coolio",
         "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02c31d3c870a3dbaf7b53186cc",
-        "value": "8617193"
+        "value": "9594148"
     },
     {
-        "currentRank": 184,
-        "trackName": "misses",
-        "name": "Dominic Fike",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02abdde781e79a44868914e661",
-        "value": "8615879"
+        "currentRank": 155,
+        "trackName": "505",
+        "name": "Arctic Monkeys",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e020c8ac83035e9588e8ad34b90",
+        "value": "9571285"
     },
     {
-        "currentRank": 185,
-        "trackName": "Where Are You Now",
-        "name": "Lost Frequencies",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02580da30167c82db5fcc5f798",
-        "value": "8565541"
+        "currentRank": 156,
+        "trackName": "All The Stars (with SZA)",
+        "name": "Kendrick Lamar",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02c027ad28821777b00dcaa888",
+        "value": "9569728"
     },
     {
-        "currentRank": 186,
-        "trackName": "Wake Me Up",
-        "name": "Avicii",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02e14f11f796cef9f9a82691a7",
-        "value": "8564021"
+        "currentRank": 157,
+        "trackName": "goosebumps",
+        "name": "Travis Scott",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02f54b99bf27cda88f4a7403ce",
+        "value": "9539779"
     },
     {
-        "currentRank": 187,
+        "currentRank": 158,
+        "trackName": "Sure Thing",
+        "name": "Miguel",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02d5a8395b0d80b8c48a5d851c",
+        "value": "9532306"
+    },
+    {
+        "currentRank": 159,
+        "trackName": "Nasty",
+        "name": "Tinashe",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0299068b5c52ec35ec2db977a7",
+        "value": "9531191"
+    },
+    {
+        "currentRank": 160,
+        "trackName": "Highway to Hell",
+        "name": "AC/DC",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0251c02a77d09dfcd53c8676d0",
+        "value": "9528115"
+    },
+    {
+        "currentRank": 161,
+        "trackName": "Apocalypse",
+        "name": "Cigarettes After Sex",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0212b69bf576f5e80291f75161",
+        "value": "9471486"
+    },
+    {
+        "currentRank": 162,
+        "trackName": "What Was I Made For? [From The Motion Picture \"Barbie\"]",
+        "name": "Billie Eilish",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02ed317ec13d3de9e01fb99c9e",
+        "value": "9464143"
+    },
+    {
+        "currentRank": 163,
+        "trackName": "BLUE",
+        "name": "Billie Eilish",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0271d62ea7ea8a5be92d3c1f62",
+        "value": "9394733"
+    },
+    {
+        "currentRank": 164,
+        "trackName": "We Found Love",
+        "name": "Rihanna",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02bef074de9ca825bddaeb9f46",
+        "value": "9379978"
+    },
+    {
+        "currentRank": 165,
+        "trackName": "Volver Al Futuro",
+        "name": "Oscar Maydon",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0206116ae20d0a4c09d65c7d1d",
+        "value": "9378525"
+    },
+    {
+        "currentRank": 166,
+        "trackName": "Mockingbird",
+        "name": "Eminem",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02726d48d93d02e1271774f023",
+        "value": "9369434"
+    },
+    {
+        "currentRank": 167,
+        "trackName": "Pink Pony Club",
+        "name": "Chappell Roan",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0296fa88fb1789be437d5cb4b6",
+        "value": "9354437"
+    },
+    {
+        "currentRank": 168,
+        "trackName": "Lovers Rock",
+        "name": "TV Girl",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02e1bc1af856b42dd7fdba9f84",
+        "value": "9331356"
+    },
+    {
+        "currentRank": 169,
+        "trackName": "Last Night",
+        "name": "Morgan Wallen",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02705079df9a25a28b452c1fc9",
+        "value": "9316377"
+    },
+    {
+        "currentRank": 170,
+        "trackName": "L\u2019AMOUR DE MA VIE",
+        "name": "Billie Eilish",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0271d62ea7ea8a5be92d3c1f62",
+        "value": "9311271"
+    },
+    {
+        "currentRank": 171,
         "trackName": "You Shook Me All Night Long",
         "name": "AC/DC",
         "displayImageUri": "https://i.scdn.co/image/ab67616d00001e020b51f8d91f3a21e8426361ae",
-        "value": "8556508"
+        "value": "9299066"
     },
     {
-        "currentRank": 188,
-        "trackName": "Thunderstruck",
-        "name": "AC/DC",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e028399047ff71200928f5b6508",
-        "value": "8513018"
+        "currentRank": 172,
+        "trackName": "Your Love",
+        "name": "The Outfield",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02cd7e670a91d0263d2ee1d8a7",
+        "value": "9291735"
     },
     {
-        "currentRank": 189,
-        "trackName": "Lover",
-        "name": "Taylor Swift",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02e787cffec20aa2a396a61647",
-        "value": "8502525"
+        "currentRank": 173,
+        "trackName": "Just the Way You Are",
+        "name": "Bruno Mars",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02f6b55ca93bd33211227b502b",
+        "value": "9264531"
     },
     {
-        "currentRank": 190,
-        "trackName": "Africa",
-        "name": "TOTO",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e024a052b99c042dc15f933145b",
-        "value": "8482272"
+        "currentRank": 174,
+        "trackName": "Something in the Orange",
+        "name": "Zach Bryan",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02b2b6670e3aca9bcd55fbabbb",
+        "value": "9231334"
     },
     {
-        "currentRank": 191,
-        "trackName": "FRI(END)S",
-        "name": "V",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02377ee031d0a3da40db19ccf4",
-        "value": "8470602"
+        "currentRank": 175,
+        "trackName": "September",
+        "name": "Earth, Wind & Fire",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e020faf2fc17446651865ce2282",
+        "value": "9227151"
     },
     {
-        "currentRank": 192,
+        "currentRank": 176,
+        "trackName": "The Sound of Silence - CYRIL Remix",
+        "name": "Disturbed",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e025ae1ccf0db0174bcbde1777e",
+        "value": "9175696"
+    },
+    {
+        "currentRank": 177,
+        "trackName": "Daylight",
+        "name": "David Kushner",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0295ca6a9b4083a86c149934ae",
+        "value": "9149757"
+    },
+    {
+        "currentRank": 178,
         "trackName": "Shut Up and Dance",
         "name": "WALK THE MOON",
         "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0243294cfa2688055c9d821bf3",
-        "value": "8462771"
+        "value": "9144969"
+    },
+    {
+        "currentRank": 179,
+        "trackName": "Demons",
+        "name": "Imagine Dragons",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02b2b2747c89d2157b0b29fb6a",
+        "value": "9136034"
+    },
+    {
+        "currentRank": 180,
+        "trackName": "Water",
+        "name": "Tyla",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02d20231861e86a6f74ef2393e",
+        "value": "9120373"
+    },
+    {
+        "currentRank": 181,
+        "trackName": "Believer",
+        "name": "Imagine Dragons",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e025675e83f707f1d7271e5cf8a",
+        "value": "9070550"
+    },
+    {
+        "currentRank": 182,
+        "trackName": "Dreams - 2004 Remaster",
+        "name": "Fleetwood Mac",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02e52a59a28efa4773dd2bfe1b",
+        "value": "9062804"
+    },
+    {
+        "currentRank": 183,
+        "trackName": "Head Honcho",
+        "name": "Eminem",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e021633c43b5695735f7de36487",
+        "value": "9009950"
+    },
+    {
+        "currentRank": 184,
+        "trackName": "Houdini",
+        "name": "Dua Lipa",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02778c1e4660aa23f6728b32a1",
+        "value": "8971764"
+    },
+    {
+        "currentRank": 185,
+        "trackName": "Paint The Town Red",
+        "name": "Doja Cat",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02a840032f14ab22da396e43cb",
+        "value": "8955860"
+    },
+    {
+        "currentRank": 186,
+        "trackName": "Thunderstruck",
+        "name": "AC/DC",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e028399047ff71200928f5b6508",
+        "value": "8950698"
+    },
+    {
+        "currentRank": 187,
+        "trackName": "euphoria",
+        "name": "Kendrick Lamar",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e027587213b1be294ac4000f648",
+        "value": "8937292"
+    },
+    {
+        "currentRank": 188,
+        "trackName": "Guilty as Sin?",
+        "name": "Taylor Swift",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e025076e4160d018e378f488c33",
+        "value": "8842165"
+    },
+    {
+        "currentRank": 189,
+        "trackName": "Cowgirls (feat. ERNEST)",
+        "name": "Morgan Wallen",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02705079df9a25a28b452c1fc9",
+        "value": "8833452"
+    },
+    {
+        "currentRank": 190,
+        "trackName": "Romantic Homicide",
+        "name": "d4vd",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02bd1a52b3d5903ee01c216da0",
+        "value": "8817500"
+    },
+    {
+        "currentRank": 191,
+        "trackName": "Cold Heart - PNAU Remix",
+        "name": "Elton John",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02523458c391fe8180a19a1069",
+        "value": "8811303"
+    },
+    {
+        "currentRank": 192,
+        "trackName": "Giza",
+        "name": "Natanael Cano",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02a708ecde93d99f552f4c5b0f",
+        "value": "8809556"
     },
     {
         "currentRank": 193,
-        "trackName": "Summer",
-        "name": "Calvin Harris",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02063c048e9ef6bd021b744756",
-        "value": "8458636"
+        "trackName": "Madonna",
+        "name": "Natanael Cano",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02fcd2820c9b859adc64a64b88",
+        "value": "8782811"
     },
     {
         "currentRank": 194,
-        "trackName": "Creep",
-        "name": "Radiohead",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02df55e326ed144ab4f5cecf95",
-        "value": "8407704"
+        "trackName": "Feel Good Inc.",
+        "name": "Gorillaz",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0219d85a472f328a6ed9b704cf",
+        "value": "8753285"
     },
     {
         "currentRank": 195,
-        "trackName": "BUTTERFLY EFFECT",
-        "name": "Travis Scott",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02072e9faef2ef7b6db63834a3",
-        "value": "8386317"
+        "trackName": "Cuando Te Vi | CROSSOVER #5",
+        "name": "Big One",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e027477ce32165afe45083b67dd",
+        "value": "8747613"
     },
     {
         "currentRank": 196,
-        "trackName": "HUMBLE.",
-        "name": "Kendrick Lamar",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e028b52c6b9bc4e43d873869699",
-        "value": "8353137"
+        "trackName": "Lover",
+        "name": "Taylor Swift",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02e787cffec20aa2a396a61647",
+        "value": "8726848"
     },
     {
         "currentRank": 197,
-        "trackName": "TEXAS HOLD 'EM",
-        "name": "Beyonc\u00e9",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e021572698fff8a1db257a53599",
-        "value": "8314890"
+        "trackName": "Bad One",
+        "name": "Eminem",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e021633c43b5695735f7de36487",
+        "value": "8711999"
     },
     {
         "currentRank": 198,
-        "trackName": "vampire",
-        "name": "Olivia Rodrigo",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02e85259a1cae29a8d91f2093d",
-        "value": "8313481"
+        "trackName": "This Is What You Came For",
+        "name": "Calvin Harris",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02d9aa52355e062f5de060adbf",
+        "value": "8708636"
     },
     {
         "currentRank": 199,
         "trackName": "Don't Start Now",
         "name": "Dua Lipa",
         "displayImageUri": "https://i.scdn.co/image/ab67616d00001e024bc66095f8a70bc4e6593f4f",
-        "value": "8300886"
+        "value": "8699764"
     },
     {
         "currentRank": 200,
-        "trackName": "Babydoll",
-        "name": "Dominic Fike",
-        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e027b1b6f41c1645af9757d5616",
-        "value": "8294757"
+        "trackName": "Wake Me Up",
+        "name": "Avicii",
+        "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02e14f11f796cef9f9a82691a7",
+        "value": "8699707"
     }
 ]
