@@ -6,10 +6,10 @@ export async function POST(request: NextRequest) {
   const { userId, score } = body;
   try {
     await sql`
-            INSERT INTO scores (user_id, high_score)
+            INSERT INTO scores (user_id, score)
             VALUES (${userId}, ${score})
             ON CONFLICT (user_id)
-            DO UPDATE SET high_score = GREATEST(scores.high_score, EXCLUDED.high_score)
+            DO UPDATE SET score = ${score}
         `;
     return NextResponse.json(
       {
