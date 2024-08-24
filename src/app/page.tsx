@@ -1,4 +1,5 @@
 "use client";
+import { v4 as uuidv4 } from "uuid";
 import { SiteContainer } from "@/components/SiteContainer";
 import { StartScreen, GameScreen, EndScreen } from "@/components/content";
 import {
@@ -30,6 +31,7 @@ export interface Scores {
 }
 
 export default function Home() {
+  const [userId, setUserId] = useState<string>("");
   const [data, setData] = useState<Data[]>();
   const [showStartScreen, setShowStartScreen] = useState(true);
   const [showCount, setShowCount] = useState<boolean>(false);
@@ -67,6 +69,25 @@ export default function Home() {
       }
     } catch (error) {
       console.error("An error occured:", error);
+    }
+  };
+
+  const addScore = async (userId: string, score: number) => {
+    try {
+      const response = await fetch("/api/score", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ userId, score }),
+      });
+
+      if (!response.ok) {
+        throw new Error("Failed to update score.");
+      }
+      console.log("Success");
+    } catch (error) {
+      console.error("Error updating score:", error);
     }
   };
 
@@ -111,6 +132,7 @@ export default function Home() {
   };
 
   const endGame = () => {
+    addScore(userId, scores.score);
     setTimeout(() => {
       setGameOver(true);
     }, 3000);
@@ -129,7 +151,7 @@ export default function Home() {
         ...prev,
         score: prev.score + 1,
       }));
-    }, 3000)
+    }, 3000);
   };
 
   const resetScore = () => {
@@ -193,6 +215,15 @@ export default function Home() {
   useEffect(() => {
     getSongs();
   }, [data]);
+
+  useEffect(() => {
+    let id = localStorage.getItem("userId");
+    if (!id) {
+      id = uuidv4();
+      localStorage.setItem("userId", id);
+    }
+    setUserId(id);
+  }, []);
 
   useEffect(() => {
     if (scores.score > scores.highScore) {
