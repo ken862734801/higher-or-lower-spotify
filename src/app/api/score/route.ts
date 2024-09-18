@@ -11,13 +11,15 @@ export async function POST(request: NextRequest) {
             ON CONFLICT (user_id)
             DO UPDATE SET score = ${score}
         `;
+    console.log(`Score: ${score} successfully added to database.`)
     return NextResponse.json(
       {
-        message: "Score successfully added to database.",
+        message: `Score: ${score} successfully added to database.`,
       },
       { status: 200 }
     );
   } catch (error) {
+    console.log("Error adding user score.")
     return NextResponse.json(
       { message: "Error adding user score." },
       { status: 500 }
